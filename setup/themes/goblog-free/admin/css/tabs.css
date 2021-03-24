@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 17px;
+}
+
+pre {
+    line-height: 0.95;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dcdcdc;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #777;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+
+thead th {
+    padding-bottom: 0.5em;
+    background: #0671ef;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+th {
+    border: 1px solid #d6d6d6;
+    color: #fff;
+    padding: 0.4em;
+    text-align: center;
+    background: #0671ef;
+}
+
+th a {
+    color: #fff;
+}
+
+tr {
+    border: 1px solid #d6d6d6;
+}
+
+td {
+    padding: 0.4em;
+    border: 1px solid #d6d6d6;
+    padding-left: 2%;
+}
+
+tr a {
+    text-decoration: underline;
+}
+
+th:last-child,
+td:last-child {
+    padding-right: 0;
+}
+
+.box {
+    margin: 0 40px;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 35px;
+}
+
+.header p {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #656;
+}
+
+.box-title {
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+
+.box-title .tablink {
+    display: flex;
+    align-items: center;
+    padding: 1.5% 3%;
+    color: #444;
+    border: 1px solid #bbb;
+    border-bottom: 0;
+}
+
+.box-title .tablink:nth-child(even),
+.box-title .tablink:nth-child(odd) {
+    border-right: none;
+}
+.box-title .tablink:last-child {
+    border-right: 1px solid #bbb;   
+}
+
+.box-title .tablink i {
+    font-size: 28px;
+    margin-right: 25px;
+}
+
+.box-tab {
+    height: 100vh;
+    background: #f9ecda;
+}
+
+.box-title .tablink span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box-tab .tabcontent {
+    padding: 12px 48px;
+    width: 1000px;
+}
+
+.box-tab .tabcontent h3 {
+    font-size: 24px;
+}
+
+.box-tab .tabcontent p {
+    font-size: 18px;
+}
+
+.free-vs-pro {
+    overflow: auto;
+    height: 850px;
+}
+
+.pro {
+    background: linear-gradient(-45deg, #ee7752, #fb1e1e, #0671ef, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+    padding: 10px 28px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 12px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.pro:active,
+.pro:focus {
+    color: #fff;
+    border: none;
+}
+
+.pro:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.free-vs-pro table th h6 {
+    color: #f1f1f1;
+    margin-bottom: 0;
+    padding: 3px 0;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.free-vs-pro table tbody.title th {
+    padding: 10px 0;
+}
+
+.free-vs-pro table tr.title-hr {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.free-vs-pro table tr.title-hr td.strong {
+    color: #444;
+    font-weight: 500;
+}
+
+.free-vs-pro table tr,
+.free-vs-pro table th,
+.free-vs-pro table td {
+    border: none;
+    color: #444;
+    line-height: 1.9;
+}
+
+.free-vs-pro i {
+    color: #00c64b;
+}
+
+.free-vs-pro i.fas.fa-times-circle {
+    color: #ad0202;
+}
+
+.free-vs-pro td.text-center {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1250px) {
+    .box-title {
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid #bbb;
+    }
+
+    .box-title .tablink:nth-child(even),
+    .box-title .tablink:nth-child(odd),
+    .box-title .tablink:last-child {
+        border-right: none;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .box-tab div.tabcontent {
+        width: 100%;
+    }
+    .box-title .tablink {
+        padding: 20px 30px;
+    }
+    .box-title .tablink i {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .box {
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    .header,
+    .box-tab .tabcontent {
+        padding: 10px 15px;
+    }
+}

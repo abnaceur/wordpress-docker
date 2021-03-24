@@ -1,0 +1,39 @@
+version: '2'
+
+services:
+ 
+  mysql:
+    image: mysql:5.7
+    env_file:
+      - .env
+    volumes:
+      - ./.docker/data/mysql/:/var/lib/mysql
+      - ./.docker/logs/mysql/:/var/log/mysql
+    ports:
+      - "3306:3306"
+    container_name: wp_mysql
+  
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      -  8080:80
+    env_file:
+      - .env
+    environment:
+      PMA_HOST: mysql
+      VIRTUAL_HOST: phpmyadmin.wp.local  
+    container_name: wp_phpmyadmin
+
+
+  app_dev:
+    container_name: wp_app
+    build: ./wordpress/
+    environment:
+      - VIRTUAL_HOST=app.wp.local
+    volumes : 
+      - ./wordpress:/var/www/html:rw
+    restart: always
+    ports:
+      - 80:80
+    links:
+      - "mysql:wp_mysql"

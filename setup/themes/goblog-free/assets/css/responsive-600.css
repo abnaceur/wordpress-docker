@@ -1,0 +1,16 @@
+/* =========================================
+============ TABLE OF CONTENTS: ============
+* Responsive Sidebar Blog Default File
+========================================= */
+/* =================== Responsive Sidebar Blog Default File =================== */
+.sidebar-default .container-widgets {
+    display: block;
+}
+
+.sidebar-default section {
+    width: 100%;
+}
+
+.sidebar-default section:nth-child(even) {
+    margin-left: 0;
+}

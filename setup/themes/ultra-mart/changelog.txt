@@ -1,0 +1,8 @@
+=== v1.0.2 ===
+- Optimized search focus on mobile
+
+=== v1.0.1 ===
+- Fixed responsive issues
+
+=== v1.0.0 ===
+- Initial Release

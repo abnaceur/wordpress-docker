@@ -1,0 +1,79 @@
+/* =========================================
+============ TABLE OF CONTENTS: ============
+* Standard Input Checkbox
+* Standard Selection
+* Standard Input
+========================================= */
+/* =================== Standard Input Checkbox =================== */
+input[type=checkbox] {
+    border-color: #007cba;
+    box-shadow: 0 0 0 1px #007cba;
+	outline: 2px solid transparent;
+	border: 1px solid #0671ef;
+	border-radius: 2px;
+}
+/* =================== Standard Selection =================== */
+.customize-control select,
+.select2-container--default .selection .select2-selection--single {
+	border: none;
+	background: #fcfcff;
+	position: relative;
+	border-radius: 0;
+	height: 27px;
+	line-height: 27px;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.wp-customizer .select2-container--default .selection .select2-selection--multiple {
+	border: none;
+	background: #fcfcff;
+	border-radius: 0;
+	height: auto;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.wp-customizer .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+	width: 95%;
+}
+.wp-customizer .select2-container--default .select2-selection--multiple .select2-selection__clear {
+	position: absolute;
+	right: 0;
+}
+.wp-customizer .select2-container .select2-dropdown {
+	z-index: 900000;
+}
+.customize-control select:active,
+.customize-control select:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.customize-control {
+	margin-bottom: 25px;
+}
+/* =================== Standard Input =================== */
+input[type="text"],
+input[type="number"],
+input[type="url"],
+input[type="email"],
+input[type="date"] {
+	background: #fcfcff;
+	position: relative;
+	border-radius: 0;
+	border: 1px solid #eee;
+	height: 27px;
+	line-height: 27px;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+input[type="text"]:active,
+input[type="text"]:focus,
+input[type="number"]:active,
+input[type="number"]:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}

@@ -1,0 +1,86 @@
+/* =========================================
+============ TABLE OF CONTENTS: ============
+* Widget Post
+* Widget Builder Order
+* Widget Style Default
+========================================= */
+
+/* =================== Widget Post =================== */
+#admin-widget-post {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#admin-widget-post .box {
+	width: 32%;
+}
+
+#admin-widget-post .box p {
+	margin: 0 5% 10%;
+}
+
+#admin-widget-post .box img {
+	border: 3px solid #ddd;
+	width: 100%;
+	height: auto;
+}
+
+#admin-widget-post .label-none {
+	display: none;
+}
+
+#admin-widget-post .label-check input:checked+img {
+	border: 3px solid #1b8fea;
+}
+
+/* =================== Widget Builder Order =================== */
+#builder-layout {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#builder-layout .box {
+	width: 32%;
+}
+
+#builder-layout .box p {
+	margin: 0 5% 10%;
+}
+
+#builder-layout .box img {
+	border: 3px solid #ddd;
+	width: 100%;
+	height: auto;
+}
+
+#builder-layout .label-none {
+	display: none;
+}
+
+#builder-layout .label-check input:checked+img {
+	border: 3px solid #1b8fea;
+}
+
+.wrap #widgets-right #goblog-free-front {
+	background: #caf2ff;
+	margin-bottom: 0;
+	padding-bottom: 9px;
+}
+
+div#widget-11_goblog_grids_categories-__i__ .widget-title.ui-draggable-handle,
+div#widget-12_goblog_grids_order-__i__ .widget-title.ui-draggable-handle,
+div#widget-13_goblog_grids_tags-__i__ .widget-title.ui-draggable-handle {
+	background: #caf2ff;
+}
+
+/* =================== Widget Style Default =================== */
+
+div#widget-11_goblog_grids_categories-__i__ .widget-title.ui-draggable-handle,
+div#widget-12_goblog_grids_order-__i__ .widget-title.ui-draggable-handle,
+div#widget-13_goblog_grids_tags-__i__ .widget-title.ui-draggable-handle,
+div#widget-7_goblog_widget_about_me-__i__ .widget-title.ui-draggable-handle,
+div#widget-8_goblog_widget_ads-__i__ .widget-title.ui-draggable-handle,
+div#widget-9_goblog_fans_page-__i__ .widget-title.ui-draggable-handle,
+div#widget-10_goblog_widget_blog_posts-__i__ .widget-title.ui-draggable-handle {
+	border: 2px solid #ff0c0c;
+}

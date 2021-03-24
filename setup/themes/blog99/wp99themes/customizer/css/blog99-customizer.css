@@ -1,0 +1,89 @@
+/*
+ * Customizer Title
+*/
+.customize-control-title {
+    color: #0073aa;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 10px 10px 11px 14px;
+    line-height: 21px;
+    background: #FFF;
+    margin: 0 -12px 0;
+    border-left: 4px solid #0073aa;
+    margin-bottom: 15px;
+}
+
+.customize-control-checkbox-multiple ul {
+    height: 200px;
+    overflow-x: scroll;
+}
+
+/**
+ * Customizer Section Dashicons Icons
+*/
+.customize-pane-parent .control-section .accordion-section-title:before,
+#sub-accordion-panel-blog99_theme_options_panel .control-section .accordion-section-title:before{
+    font-family: dashicons;
+    content: "\f545";
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+#accordion-panel-blog99_theme_options_panel .accordion-section-title:before{
+    content: "\f163";
+}
+
+#accordion-section-colors .accordion-section-title:before{
+    content: "\f226";
+}
+
+#sub-accordion-panel-blog99_theme_options_panel #accordion-section-blog99_banner_section .accordion-section-title:before {
+    content: "\f233";
+}
+
+#sub-accordion-panel-blog99_theme_options_panel #accordion-section-blog99_theme_sidebar_section .accordion-section-title:before{
+    content: "\f547";
+}
+
+/*#accordion-section-online_estore_social_media_link .accordion-section-title:before{
+    content: "\f237";
+}*/
+
+#sub-accordion-panel-blog99_theme_options_panel #accordion-section-blog99_footer_section .accordion-section-title:before{
+    content: "\f212";
+}
+
+#accordion-panel-nav_menus .accordion-section-title:before{
+    content: "\f333";
+}
+
+#accordion-panel-widgets .accordion-section-title:before{
+    content: "\f116";
+}
+
+#accordion-section-custom_css .accordion-section-title:before{
+    content: "\f499";
+}
+
+/**
+ * Radio Image Control
+*/
+
+li#customize-control-blog99_archiver_sierbar_layout img,
+li#customize-control-blog99_single_page_sierbar_layout img,
+li#customize-control-blog99_page_sierbar_layout img {
+  width: 50px;
+  margin-right: 6px;
+}
+
+li#customize-control-blog99_theme_layout_settings ul#blog99-img-container li,
+li#customize-control-blog99_blog_style ul#blog99-img-container li {
+  width: 26%;
+  margin-right: 5%;
+}
+
+ul#blog99-img-container li input {
+  display: none;
+}

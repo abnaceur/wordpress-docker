@@ -1,0 +1,67 @@
+/* Customizer CSS */
+.customize-control {
+	position: relative;
+	margin-bottom: 0;
+	padding: 8px 15px;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+#customize-theme-controls .customize-pane-child.accordion-section-content {
+	padding: 10px;
+}
+
+
+.customize-pane-child li,
+.customize-control-nav_menu{
+    margin-bottom:15px;
+}
+#sub-accordion-panel-widgets li,
+#sub-accordion-panel-opus_blog_panel li,
+#customize-control-blogname,
+#customize-control-blogdescription,
+#customize-control-custom_logo{
+	margin: 0;
+}
+
+/*
+* Customizer style for check box
+*/
+
+.customize-control-checkbox label{
+    font-weight: 600;
+}
+.customize-control-checkbox input[type=checkbox] {
+    width: 35px;
+    height: 15px;
+    background: grey;
+    border-radius: 100px;
+    position: relative;
+    border: none;
+    min-width: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.customize-control-checkbox input[type=checkbox]:checked:before{
+    display: none;
+}
+.customize-control-checkbox input[type=checkbox]:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+.customize-control-checkbox input:checked{
+    background: #00a0d2;
+}
+.customize-control-checkbox input:checked:after {
+    left: calc(100% - 0px);
+    transform: translateX(-100%);
+}
+.customize-control-checkbox input:active:after {
+    width: 15px;
+}

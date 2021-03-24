@@ -1,0 +1,276 @@
+# <!=Copyright (C) 2019 profoxstudio
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: blogtay 1.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-22 15:11:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Name-of-Author <Email-of-Author>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../blogtay\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: 404.php:32
+msgid "404"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:33
+msgid "Oops! Page not found"
+msgstr ""
+
+#: 404.php:35
+msgid "Sorry! The page you are looking for does not exist."
+msgstr ""
+
+#: comments.php:35
+#. translators: 1: title.
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:31
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:34
+#. translators: %s: CMS name, i.e. WordPress.
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:38
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:56
+msgid "Small"
+msgstr ""
+
+#: functions.php:57
+msgid "S"
+msgstr ""
+
+#: functions.php:62
+msgid "Normal"
+msgstr ""
+
+#: functions.php:63
+msgid "M"
+msgstr ""
+
+#: functions.php:68
+msgid "Large"
+msgstr ""
+
+#: functions.php:69
+msgid "L"
+msgstr ""
+
+#: functions.php:74
+msgid "Huge"
+msgstr ""
+
+#: functions.php:75
+msgid "XL"
+msgstr ""
+
+#: functions.php:86
+msgid "Primary"
+msgstr ""
+
+#: functions.php:87
+msgid "Top header left info"
+msgstr ""
+
+#: functions.php:88
+msgid "Social Links"
+msgstr ""
+
+#: functions.php:162
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:164
+msgid "Add widgets here."
+msgstr ""
+
+#: header.php:33
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer/header.php:4
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/header.php:17
+msgid "Show"
+msgstr ""
+
+#: inc/customizer/header.php:18
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer/header.php:35
+msgid "Top header Show/Hide"
+msgstr ""
+
+#: inc/customizer/header.php:51
+msgid "Top header section show/hide."
+msgstr ""
+
+#: inc/customizer/hero.php:5
+msgid "Banner"
+msgstr ""
+
+#: inc/customizer/hero.php:10
+msgid "Custom Banner"
+msgstr ""
+
+#: inc/customizer/hero.php:24
+msgid "Slider item"
+msgstr ""
+
+#: inc/customizer/hero.php:25
+msgid "Enter number of slider, publish and refresh"
+msgstr ""
+
+#: inc/customizer/hero.php:46
+msgid "Select page for slider "
+msgstr ""
+
+#: inc/customizer/hero.php:62
+msgid "Slider button text "
+msgstr ""
+
+#: inc/customizer/hero.php:72
+msgid "Banner Show/Hide"
+msgstr ""
+
+#: inc/customizer/hero.php:88
+msgid "Banner section show/hide."
+msgstr ""
+
+#: inc/hooks/hero-hook.php:41 inc/hooks/hero-hook.php:42
+msgid "Read More"
+msgstr ""
+
+#: inc/template-tags.php:62
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:65
+#. translators: 1: list of categories.
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:72
+#. translators: 1: list of tags.
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:82
+#. translators: %s: post title
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:99 template-parts/content-page.php:47
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: search.php:21
+#. translators: %s: search query.
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#. translators: 1: link to WP admin new post page.
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:34 template-parts/content.php:59
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:48
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "blogtay"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://profoxstudio.com/themes/blogtay/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Blogtay is free minimal WordPress blog theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "profoxstudio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profoxstudio.com/"
+msgstr ""
+
+#: comments.php:41
+#. translators: 1: comment count number, 2: title.
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:29
+#. translators: %s: post date.
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:45
+#. translators: %s: post author.
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#: inc/template-tags.php:69
+#. translators: used between list items, there is a space after the comma
+msgctxt "list item separator"
+msgid ", "
+msgstr ""

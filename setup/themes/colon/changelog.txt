@@ -1,0 +1,16 @@
+== Changelog ==
+
+v1.0.4
+--bug fixes
+
+v1.0.3
+--Added page bg color option
+
+v1.0.2
+--bug fixes
+
+v1.0.1
+--new customizer options
+
+v1.0.0
+--initial release

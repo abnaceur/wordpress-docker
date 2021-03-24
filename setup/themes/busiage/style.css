@@ -1,0 +1,74 @@
+/*
+Theme Name: Busiage
+Theme URI: https://themeansar.com/free-themes/busiage/
+Author: themeansar
+Author URI: https://themeansar.com
+Template: agencyup
+Description: Busiage WordPress theme ideal for a business or perfect solutions for corporate, consulting, wedding planners, agency, law firms, finance, law travel, recipes, sport/medical shops, startups, online agencies, portfolios, freelancers, E-commerce.  The theme is responsive, WPML, Retina ready, SEO friendly (Live preview : https://demos.themeansar.com/agencyup/widget/)
+Version: 0.4
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, translation-ready, custom-background, custom-logo, featured-images, footer-widgets, full-width-template, blog, e-commerce, entertainment
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: busiage
+*/
+.bs-headwidget .navbar-wp {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -35px;
+    margin: 0;
+    z-index: 999;
+    transition: all 1s ease-out;
+    border-radius: 0;
+    height: auto;
+}
+.bs-main-nav {
+	position: relative;
+}
+.header_widgets {
+	padding: 20px 0 40px;
+}
+.header_widgets_inner {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.head_widget i {
+	font-size: 22px;
+	color: #fff;
+}
+.bs-headwidget .navbar-wp .navbar-nav > li> a {
+    padding: 15px 15px;
+}
+.slide-caption {
+    background: rgba(0,0,0,0.8);
+    padding: 20px;
+    border-radius: 0;
+}
+.btn:hover, .btn:focus {
+    text-decoration: underline;
+}
+
+.bs-breadcrumb-section
+{
+    box-shadow: unset;
+}
+a {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: underline;
+}
+.site-title a:focus {
+	color: #fff;
+	outline: 1px dotted #fff;
+}
+a:focus {
+	outline: 1px dotted;
+}
+.bs-widget ul {
+    margin: 0;
+}
+.bs-sidebar .bs-widget h6 {
+    margin-bottom: 15px;
+}

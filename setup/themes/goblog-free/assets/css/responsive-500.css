@@ -1,0 +1,159 @@
+/* =========================================
+============ TABLE OF CONTENTS: ============
+* Responsive Grids Layout
+* Responsive Archive File
+* Responsive Author File
+* Responsive Comments File
+* Responsive Footer Widget Default File
+* Responsive Front Page File
+* Responsive Header Navigasi Primary 1
+* Responsive Index File
+* Responsive Page File
+* Responsive Search File
+* Responsive Sidebar Blog Default File
+* Responsive Single File
+========================================= */
+/* =================== Responsive Grids Layout =================== */
+.grids .name-post {
+    margin-top: 15px;
+    padding: 0 3%;
+    margin-bottom: 25px;
+}
+
+.grids .name-post::before {
+    padding-left: 3%;
+}
+
+.grids .name-post h2 {
+    left: 0;
+    padding-left: 35px;
+}
+
+.grids .content {
+    padding: 0 3%;
+}
+
+/* =================== Responsive Archive File =================== */
+.main-archive .container-archive {
+    padding: 1%;
+}
+
+.main-archive header {
+    padding: 0 3%;
+}
+
+/* =================== Responsive Author File =================== */
+.main-author .author-box {
+    padding: 0;
+}
+
+.main-author .container-author {
+    padding: 1%;
+}
+
+.main-author header {
+    padding: 0 3%;
+}
+
+/* =================== Responsive Comments File =================== */
+.comments-area ul,
+.comments-area ol {
+    margin-left: 1.3em;
+}
+
+.comment-reply-link {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.comment-body {
+    padding: 0.8em 0;
+}
+
+/* =================== Responsive Footer Widget Default File =================== */
+#footer .box-widget {
+    padding: 0 4%;
+}
+
+/* =================== Responsive Front Page File =================== */
+.main-front-page .grids .name-post {
+    margin-top: 15px;
+}
+
+.main-front-page .container-front-page {
+    padding: 1%;
+}
+
+/* =================== Responsive Header Navigasi Primary 1 =================== */
+.primary1 .box-menu {
+    margin-left: 0;
+    padding: 2% 4%;
+}
+
+.primary1 .box-menu>ul>li>a {
+    padding: 10px;
+}
+
+.primary1 .search-form form {
+    width: 80%;
+    margin: 0 10%;
+    top: -212px;
+}
+
+/* =================== Responsive Index File =================== */
+.main-index .container-index {
+    padding: 1%;
+}
+
+/* =================== Responsive Page File =================== */
+.container-page .alignright,
+.container-page .alignleft {
+    float: none;
+    margin: 2% 0;
+}
+
+.main-page .container-page {
+    padding: 2.5% 4%;
+}
+
+/* Page Left And Right Custome */
+.main-page-custome-left .container-page-custome-left,
+.main-page-custome-right .container-page-custome-right {
+    padding: 2% 4%;
+}
+
+/* =================== Responsive Search File =================== */
+.main-search .container-search {
+    padding: 1%;
+}
+
+.main-search header {
+    padding: 0 3%;
+}
+
+.main-search header h1 {
+    margin: 35px 0;
+}
+
+/* =================== Responsive Sidebar Blog Default File =================== */
+.page-template-page-left .sidebar-default,
+.page-template-page-right .sidebar-default,
+.sidebar-default {
+    padding: 2% 4%;
+}
+
+/* =================== Responsive Single File =================== */
+.main-single .alignright,
+.main-single .alignleft {
+    float: none;
+    margin: 3% 0;
+}
+
+.main-single .container-single-one {
+    padding: 1% 4%;
+}
+
+.main-single .author-box {
+    padding: 0;
+}

@@ -1,0 +1,565 @@
+/*
+Theme Name:   Adorable Blog
+Theme URI:    https://www.amplethemes.com/downloads/adorable-blog/
+Description:  Adorable Blog is a responsive WordPress theme, its the child theme of Saraswati Blog. This is one best ever crafted free WordPress themes for Blog, news, and Magazine. It's 2 column with masonary layout, its is a simple, easy to use, modern and creative, user-friendly WordPress theme with color options.
+              With the help of its live customizer, you can modify the theme with ease like setting a new header and footer, changing the colors and many others. The theme has some amazing features to offer to its users. It has good compatibility with all kinds of web browsers like Google Chrome, Firefox, and Safari etc.
+              In addition,  It comes with added custom widgets for author,Recent post, Feature widget, sticky sidebar options, footer widget, sidebar options, meta option, copyright option, social options etc.
+Author:       amplethemes
+Author URL:   https://www.amplethemes.com/
+Template:     saraswati-blog
+Version:      1.0.3
+Tested up to:   5.5
+Requires PHP:   5.2.4
+Requires PHP: 5.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: adorable-blog
+Tags:           two-columns, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready, blog
+ */
+/* Write here your own personal stylesheet */
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+.widget > ul li a, .widget > ul li {
+  
+    font-size: 15px !important;
+    
+}
+
+.header-nav .menu > li > a{ font-size: 16px; }
+
+ .cssmenu ul ul li a { font-size: 16px; }
+
+.widget {
+      box-shadow: 0 0 15px #cccccc57 !important;
+}
+
+.image-info {
+       margin-bottom: 0px;
+    
+}
+
+body {
+    background: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    letter-spacing: .1em;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,dd, dt {
+   line-height: 1.5;
+    }
+
+
+.post-info .post-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 14px 0;
+}
+
+.post-navigation .nav-previous {
+    float: left;
+    width: 47%;
+}
+
+.widget_search input[type="submit"] {
+    line-height: 44px;
+    padding: 0 14px;
+}
+
+/** New added  **/
+
+.boxed-wrapper {
+  margin: 0 auto;
+}
+
+#page-header.boxed-wrapper {
+  padding: 0 !important;
+}
+
+
+.btn-default {
+    background-color: #617c58;
+    border-color: #617c58;
+    color: #FFF;
+    -webkit-border-radius: 0;
+    text-transform: uppercase;
+    line-height: 38px;
+    padding: 0 15px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+.copyright-text p {
+    line-height: 27px;
+}
+/*--------------------------------------------------------------
+7.0 Featured Links
+--------------------------------------------------------------*/
+
+#featured-links {
+  padding-top: 20px;
+}
+
+#featured-links .boxed-wrapper {
+  font-size: 0;
+  text-align: center;
+}
+
+#featured-links .featured-link {
+  position: relative;
+  float: left;
+}
+
+#featured-links a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#featured-links .cv-outer {
+  padding: 10px;
+}
+
+#featured-links h6 {
+  display: inline-block !important;
+  padding: 9px 20px !important;
+  font-family: 'Open Sans';
+  font-size: 14px!important;
+  font-weight: 600!important;
+  letter-spacing: 1px!important;
+  text-transform: uppercase!important;
+}
+
+#featured-links h6 {
+    background-color: rgba(255,255,255, 0.85);
+    color: #000000;
+}
+
+.cv-outer {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.cv-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#featured-links
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.blog-post {
+      box-shadow: 0 0 15px #cccccc57 !important;
+}
+
+#featured-links .featured-link img{ box-shadow: 0 0 15px rgba(0,0,0,0.2)!important; }
+
+
+.post-info .post-title {
+    font-size: 25px;
+}
+
+.comments-area {
+     box-shadow: 0 0 15px #cccccc57 !important;
+}
+
+.post-content {
+    padding: 40px 20px 20px;
+}
+
+.post-content p {
+     text-align: justify;
+}
+
+.logo-area {
+    margin: 20px 0 20px;
+}
+
+.post-meta, .post-meta a {
+    line-height: 26px;
+    font-size: 13px;
+}
+
+.about-me.text-center {
+    text-align: justify!important;
+  
+}
+
+.widget_mc4wp_form_widget input[type="email"]
+{
+    width: 55%;
+    color: #222222;
+    border: 1px solid #ed0505;
+    height: 45px;
+    margin: 0 2%;
+    padding: 0 20px;
+}
+.widget_mc4wp_form_widget .btn.btn--round
+{
+      border: 1px solid #ed0505;
+      background-color: #ed0505;
+      color:#FFF;
+      line-height: 31px;
+      border-radius: 0px;
+}
+
+
+.blog-post .post-info {
+    margin: 0 0 20px;
+}
+
+.shape1 {
+    height: 20px !important;
+    width: 62px !important;;
+    text-align: center;
+}
+
+blockquote {
+    margin-left: 58px !important;
+    padding-left: 26px!important;
+    position: relative!important;
+}
+
+@media (max-width:678px) {
+
+    .widget_search input[type="submit"]
+    {
+      margin-top: 10px;
+      margin-left: 7px;
+    }
+    }
+
+
+@media only screen and (max-width: 767px)
+{
+    .post-navigation .nav-next {
+        float: left;
+        text-align: left;
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    #featured-links .featured-link {
+     margin-bottom: 25px;
+    }
+    .shape1,.topbar{ display: none!important; }
+
+    .header-slider-style2 .slide-item .post-info {
+    padding: 18px 8px 1px;
+    height: 131px;
+    }
+
+    .post-meta, .post-meta a 
+    {
+        font-size: 13px;
+        margin-top: 8px;
+   }
+
+   .post-info .post-title
+    {
+      font-size: 20px;
+    }
+
+    .blog-post .post-info 
+    {
+     margin: 0 0 15px;
+   }
+
+}
+
+@media (max-width: 481px)
+{
+    .logo-area {
+        margin: 5px 0;
+    }
+}
+@media (max-width: 640px){
+        
+          .post-info .post-title
+         {
+            margin: 5px 0px!important;
+        }
+}
+
+.post-info .post-title a{
+    color: #444444!important;
+}
+a{
+    text-decoration: none!important;
+}
+ul#primary-menu {
+    text-align: center;
+}
+
+.slide-item-hover.text-center {
+    top: 23%;
+}
+.header-slider-style2 .slide-item .post-info {
+    background: rgba(16, 16, 16, 0.38)!important;
+}
+.header-slider-style2 .post-info .post-title a {
+    color: #ffffff!important;
+}
+.header-slider-style2 .cat-link{
+    color: #fff;
+}
+.slide-item-hover.text-center .post-meta a {
+    color: #ffffff;
+    margin-right: 10px;
+}
+.slide-item-hover.text-center span.post-meta .fa {
+    color: #fff;
+}
+
+li {
+    display: block;
+    transition-duration: 0.5s;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover ,ul li:focus > ul,
+ul li ul:focus, ul li:active > ul,
+ul li ul:active{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+.screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+a:focus {
+    outline: thin dotted!important;
+}
+
+/* Nav Menu Arrows */
+.sf-arrows .sf-with-ul {
+    padding-right: 30px;
+}
+.sf-arrows .sf-with-ul:after {
+    content: "\f107";
+    position: absolute;
+    right: 15px;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+}
+.sf-arrows ul .sf-with-ul:after {
+    content: "\f105";
+}
+
+/*open menu for drop-down*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    z-index: 9999999999999999999;
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+    margin-top: 20px;
+}
+.screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+a:focus {
+    outline: thin dotted!important;
+}
+ul li a:focus ~ ul {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    left: auto;
+    animation: fadeinUp .3s;
+}
+ul li:focus-within > ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    left: auto;
+    animation: fadeinUp .3s;
+}
+
+/*end skip */
+.slide-item .shape1 {
+    display: none;
+}
+body {
+
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    letter-spacing: .1em;
+}
+.social-links ul li a:focus, .social-links ul li a:hover {
+    outline: thin dotted!important;
+}
+
+
+ .topbar a:hover, .topbar a:focus, .topbar a:active, .btn-link{
+
+     color: #fff;
+
+}
+*:focus {
+    outline: 1px dotted;
+}
+
+a:focus {
+    outline: thin dotted!important;
+}
+ul li a:focus ~ ul {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    left: auto;
+    animation: fadeinUp .3s;
+}
+ul sub:focus-within > li {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    left: auto;
+    animation: fadeinUp .3s;
+}
+
+.featured-link img {
+    min-height: 250px;
+    max-height: 250px;
+}
+nav.header-nav.primary_menu.affix {
+    padding-top: 20px;
+}
+
+.text-center.more-link-wrap {
+    text-align: right;
+}
+.more-link-wrap {
+    margin: 6px 0;
+}
+.image-info:after,.image-info:before{
+    display: none;
+}
+.blog-post-content h2 {
+    font-size: 20px;
+}
+.cat-tag {
+    margin-bottom: -6px;
+    padding-top: 5px;
+}
+.blog-post-content {
+    padding-left: 20px;
+}
+.shape1 {
+    display: none;
+}
+.cat-tag a {
+    font-size: 13px;
+}
+.blog-post-content h2 a {
+    font-size: 19px;
+    color: #444!important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, dd, dt {
+    line-height: 0.5;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.saraswati-blog-breadcrumbs {
+    margin-top: 8px;
+}
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.post-info.text-center .text-center.more-link-wrap {
+    text-align: center;
+}
+.blog-post-content h2 {
+    line-height: 20px;
+}
+.entry-summary .text-center.more-link-wrap {
+    text-align: center;
+}
+

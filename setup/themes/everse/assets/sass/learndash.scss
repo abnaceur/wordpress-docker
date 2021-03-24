@@ -1,0 +1,131 @@
+@import "base/_variables.scss";
+@import "base/_mixins.scss";
+
+
+/*-------------------------------------------------------*/
+/* LearnDash Grid
+/*-------------------------------------------------------*/
+.ld-course-list-items .ld_course_grid {
+	.entry-title {
+		font-size: 1.3125rem;
+	}
+
+	.thumbnail .caption {
+		padding: 24px 24px 4px;
+	}
+
+	.thumbnail.course {
+		border-color: $border-color;
+	}
+
+	.thumbnail.course .ld_course_grid_price {
+		background-color: #FFC608;
+		box-shadow: none;
+		text-shadow: none;
+		color: $heading-color;
+
+		&::before {
+			display: none;
+		}
+	}
+
+	.btn {
+		padding: 9px 12px;
+	}
+
+	.btn-primary {
+		background-color: $primary-color;
+		border: 0;
+	}
+
+	.learndash-wrapper .ld-progress {
+		margin-bottom: 0;
+	}
+}
+
+
+/* Progress
+-------------------------------------------------------*/
+.learndash-wrapper .ld-progress .ld-progress-heading .ld-progress-stats .ld-progress-percentage {
+	color: #7B8787;
+}
+
+
+/* Login
+-------------------------------------------------------*/
+.learndash-wrapper .ld-login-modal {
+	text-align: left;
+}
+
+
+/* Widgets
+-------------------------------------------------------*/
+.widget_sfwd-courses-widget,
+.widget_sfwd-lessons-widget,
+.widget_sfwd-certificates-widget {
+	ul h4 {
+		font-size: 1rem;
+		font-weight: 400;
+	}
+}
+
+.widget .ld-section-heading h4,
+.ld_course_info_mycourses_list h4,
+.course_progress_details h4 {
+	font-size: 1.125rem;
+}
+
+.ld-entry-title {
+	font-size: 1rem;
+}
+
+.widget_lduserstatus {
+
+	.ld-user-status.ld-is-widget,
+	.ld-item-list {
+		margin: 0;
+	}
+	
+}
+
+.widget_ldcourseinfo {
+	.ld_course_info_mycourses_list > h4 {
+		margin-bottom: 20px;
+	}
+
+	.ld-course-info-my-courses {
+		margin-bottom: 14px;
+		padding-bottom: 14px;
+		border-bottom: 1px solid $border-color;
+
+		& > img {
+			width: 80px;
+			float: left;
+			margin-right: 20px;
+		}
+
+		.ld-entry-title {
+			overflow: hidden;
+			font-weight: 400;
+			margin-bottom: 0;
+		}
+	}
+
+	.ld-course-progress-content-container .learndash-profile-edit-course-link:not(:last-of-type) {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+}
+
+/* Single Course
+-------------------------------------------------------*/
+.single-post__entry {
+	&.sfwd-courses {
+		padding-bottom: 0;
+		border-bottom: 0;
+	}
+
+	.ld-course-status {
+		margin-bottom: 40px;
+	}
+}

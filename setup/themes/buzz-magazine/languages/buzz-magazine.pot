@@ -1,0 +1,865 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-11-18 11:57+0545\n"
+"PO-Revision-Date: 2020-11-18 11:57+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_001\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;__e;esc_html;esc_html__;esc_attr;esc_att;"
+"esc_attr_e;esc_attr__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:35
+msgid "Post navigation"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:50
+msgid "Aarambha Themes"
+msgstr ""
+
+#: footer.php:77
+msgid "Go to Top"
+msgstr ""
+
+#: functions.php:77 inc/customizer/sections/theme_option/top-header.php:9
+msgid "Top Header"
+msgstr ""
+
+#: functions.php:78
+msgid "Primary"
+msgstr ""
+
+#: functions.php:79
+msgid "Footer"
+msgstr ""
+
+#: functions.php:80
+msgid "Social Icon"
+msgstr ""
+
+#: functions.php:156
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:158 functions.php:167 functions.php:176 functions.php:185
+#: functions.php:194 functions.php:203
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:165
+msgid "Home Sidebar 1"
+msgstr ""
+
+#: functions.php:174
+msgid "Home Sidebar 2"
+msgstr ""
+
+#: functions.php:183
+msgid "Header Advertisement"
+msgstr ""
+
+#: functions.php:192
+msgid "Home Content 1"
+msgstr ""
+
+#: functions.php:201
+msgid "Home Content 2"
+msgstr ""
+
+#: functions.php:210
+msgid "Home Content Right"
+msgstr ""
+
+#: functions.php:212
+msgid "Add widgets here which appears in home content right."
+msgstr ""
+
+#: functions.php:219
+msgid "Home Content Left"
+msgstr ""
+
+#: functions.php:221
+msgid "Add widgets here which appears in home content left."
+msgstr ""
+
+#: functions.php:230
+#, php-format
+msgid "Home Bottom Section %d"
+msgstr ""
+
+#: functions.php:232
+msgid "Add widgets here which appears in homepage bottom section."
+msgstr ""
+
+#: functions.php:240
+msgid "Video Section"
+msgstr ""
+
+#: functions.php:242
+msgid "Add widgets here which appears in entertainment."
+msgstr ""
+
+#: functions.php:250
+#, php-format
+msgid "Footer %d"
+msgstr ""
+
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:99
+msgid "follow us"
+msgstr ""
+
+#: header.php:159
+msgid "Search"
+msgstr ""
+
+#: inc/customizer/panels/theme-option.php:9
+msgid "Theme option"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/404.php:10
+msgid "404 Page"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/404.php:31
+#: inc/customizer/sections/theme_option/breadcrumb.php:30
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/404.php:50
+msgid "Upload Image"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/404.php:67
+msgid "Primary Title"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/404.php:108
+msgid "Enable Home Menu"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/404.php:128
+msgid "Button Title"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/advertisement.php:10
+msgid "Advertisement "
+msgstr ""
+
+#: inc/customizer/sections/theme_option/advertisement.php:30
+#: inc/customizer/sections/theme_option/main-header.php:50
+msgid "Advertisement Image"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/archive.php:10
+msgid "Archive"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/archive.php:31
+msgid "Pagination Layout"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/archive.php:36
+#: inc/customizer/sections/theme_option/top-header.php:95
+msgid "Number"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/archive.php:37
+msgid "Older and Newer"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/archive.php:63
+#: inc/customizer/sections/theme_option/single-page-post.php:92
+#: inc/customizer/sections/theme_option/single-page-post.php:127
+msgid "Text Alignment"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/archive.php:66
+#: inc/customizer/sections/theme_option/main-header.php:33
+#: inc/customizer/sections/theme_option/single-page-post.php:95
+#: inc/customizer/sections/theme_option/single-page-post.php:130
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/archive.php:67
+#: inc/customizer/sections/theme_option/single-page-post.php:96
+#: inc/customizer/sections/theme_option/single-page-post.php:131
+msgid "Centered"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/archive.php:68
+#: inc/customizer/sections/theme_option/main-header.php:35
+#: inc/customizer/sections/theme_option/single-page-post.php:97
+#: inc/customizer/sections/theme_option/single-page-post.php:132
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/breadcrumb.php:10
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/breadcrumb.php:49
+msgid "Breadcrumb Background Color"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/color-category.php:10
+msgid "Categories Color "
+msgstr ""
+
+#: inc/customizer/sections/theme_option/color-category.php:48
+msgid "Tag "
+msgstr ""
+
+#: inc/customizer/sections/theme_option/color-category.php:49
+#: inc/customizer/sections/theme_option/slider.php:51
+#: inc/customizer/sections/theme_option/slider.php:105
+#: inc/customizer/sections/theme_option/slider.php:141
+msgid "font-size:17px;color:#555D66;text-align:center"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/flash-news.php:10
+msgid "Flash News"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/flash-news.php:11
+#: inc/customizer/sections/theme_option/main-header.php:10
+#: inc/customizer/sections/theme_option/top-header.php:10
+msgid "Top Header Section"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/flash-news.php:32
+msgid "Enable Flash News Section"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/flash-news.php:54
+msgid "Enable Social section"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/flash-news.php:73
+msgid "Flash News Title"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/flash-news.php:96
+#: inc/customizer/sections/theme_option/footer.php:50
+#: inc/customizer/sections/theme_option/top-header.php:50
+msgid "Top Bar Left Element"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/flash-news.php:99
+msgid "Show Latest Posts"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/flash-news.php:100
+msgid "Show Posts From Category"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/flash-news.php:116
+msgid "Choose category"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/flash-news.php:117
+msgid "Filter Posts According To Category"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/footer.php:10
+msgid "Footer "
+msgstr ""
+
+#: inc/customizer/sections/theme_option/footer.php:29
+msgid "Copy Right Text"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/footer.php:52
+#: inc/customizer/sections/theme_option/top-header.php:53
+#: inc/customizer/sections/theme_option/top-header.php:75
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/footer.php:53
+#: inc/customizer/sections/theme_option/top-header.php:54
+#: inc/customizer/sections/theme_option/top-header.php:76
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:10
+msgid "General "
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:27
+msgid "Global Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:28
+#: inc/customizer/sections/theme_option/main-header.php:28
+msgid "Changes will appears in top home sidebar,archive,page and posts"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:33
+#: inc/customizer/sections/theme_option/general.php:64
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:34
+#: inc/customizer/sections/theme_option/general.php:65
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:58
+msgid "Home Bottom Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:59
+msgid "Changes only sees in bottom homepage"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:73
+msgid "content"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:80
+msgid "Content Type"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:81
+msgid "Content Shows all the text whereas excerpt shows only 55 character"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:86
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:87
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:103
+msgid "Title Layout"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:108
+#: inc/customizer/sections/theme_option/slider.php:163
+msgid "Layout 1"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/general.php:109
+#: inc/customizer/sections/theme_option/slider.php:164
+msgid "Layout 2"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/main-header.php:9
+msgid "Main Header"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/main-header.php:27
+msgid "Logo Layout"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/main-header.php:34
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/single-page-post.php:10
+msgid "Single Page/Post "
+msgstr ""
+
+#: inc/customizer/sections/theme_option/single-page-post.php:30
+msgid "Enable Related Posts"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/single-page-post.php:50
+msgid "Related Posts Title"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/single-page-post.php:56
+msgid "Enter the title"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/single-page-post.php:74
+msgid "Number Of Related Posts"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/single-page-post.php:111
+msgid "Page"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/single-page-post.php:112
+msgid "font-size:18px;color:#555D66;text-align:center;"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/slider.php:9
+#: inc/customizer/sections/theme_option/slider.php:50
+msgid "Slider"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/slider.php:32
+msgid "Enable Slider Section"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/slider.php:33
+msgid "It will turn off all the slider section"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/slider.php:65
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/slider.php:67
+msgid "Filter Posts According to Category"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/slider.php:86
+#: inc/customizer/sections/theme_option/slider.php:122
+msgid "See Per Post"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/slider.php:103
+msgid "Featured Posts"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/slider.php:140
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/slider.php:157
+msgid "Slider Layout"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/top-header.php:30
+msgid "Enable Top bar section"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/top-header.php:55
+#: inc/customizer/sections/theme_option/top-header.php:77
+msgid "Address/number/Email"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/top-header.php:56
+#: inc/customizer/sections/theme_option/top-header.php:78
+msgid "Date"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/top-header.php:73
+msgid "Top Bar Right Element"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/top-header.php:114
+msgid "Address"
+msgstr ""
+
+#: inc/customizer/sections/theme_option/top-header.php:133
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/sections/upsell.php:17
+msgid "View Pro Version"
+msgstr ""
+
+#: inc/library/breadcrumbs.php:244
+msgid "Browse:"
+msgstr ""
+
+#: inc/library/breadcrumbs.php:246
+msgid "Home"
+msgstr ""
+
+#: inc/library/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/library/breadcrumbs.php:248
+msgid "Archives"
+msgstr ""
+
+#: inc/library/breadcrumbs.php:250
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/library/breadcrumbs.php:252
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/library/breadcrumbs.php:254
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/library/breadcrumbs.php:256
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/template-functions.php:128 template-parts/content-page.php:31
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-tags.php:125
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:142
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:12
+msgid "Display Feature Grid Style Widget."
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:18
+msgid "Buzz Magazine: Feature Grid Style"
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:26
+#: inc/widgets/widget-feature-grid-style.php:34
+#: inc/widgets/widget-feature-grid-style.php:90
+msgid "Fashion"
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:31
+#: inc/widgets/widget-feature-grid-style.php:39
+#: inc/widgets/widget-feature-list-style.php:33
+#: inc/widgets/widget-feature-list-style.php:41
+#: inc/widgets/widget-grid-style.php:32 inc/widgets/widget-grid-style.php:40
+#: inc/widgets/widget-list-feature-style.php:32
+#: inc/widgets/widget-list-feature-style.php:40
+#: inc/widgets/widget-mixed-list-style.php:31
+#: inc/widgets/widget-mixed-list-style.php:39
+#: inc/widgets/widget-mixed-style.php:34 inc/widgets/widget-mixed-style.php:43
+msgid "View All"
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:45
+#: inc/widgets/widget-feature-list-style.php:47
+#: inc/widgets/widget-grid-style.php:47 inc/widgets/widget-grid-style.php:81
+#: inc/widgets/widget-list-feature-style.php:47
+#: inc/widgets/widget-list-feature-style.php:80
+#: inc/widgets/widget-mixed-list-style.php:46
+#: inc/widgets/widget-mixed-style.php:50 inc/widgets/widget-mixed-style.php:86
+#: inc/widgets/widget-popular-post.php:45
+#: inc/widgets/widget-recent-comment.php:42
+#: inc/widgets/widget-recent-posts.php:51
+#: inc/widgets/widget-single-feature-style.php:44
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:51
+#: inc/widgets/widget-feature-list-style.php:53
+#: inc/widgets/widget-grid-style.php:53
+#: inc/widgets/widget-list-feature-style.php:52
+#: inc/widgets/widget-mixed-list-style.php:51
+#: inc/widgets/widget-mixed-style.php:54 inc/widgets/widget-popular-post.php:50
+#: inc/widgets/widget-single-feature-style.php:50
+msgid "Slider Category:"
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:58
+#: inc/widgets/widget-feature-list-style.php:60
+#: inc/widgets/widget-grid-style.php:58
+#: inc/widgets/widget-list-feature-style.php:56
+#: inc/widgets/widget-mixed-list-style.php:55
+#: inc/widgets/widget-mixed-style.php:59 inc/widgets/widget-popular-post.php:56
+#: inc/widgets/widget-single-feature-style.php:57
+msgid "From Recent Post"
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:65
+#: inc/widgets/widget-feature-list-style.php:68
+#: inc/widgets/widget-grid-style.php:66
+#: inc/widgets/widget-list-feature-style.php:65
+#: inc/widgets/widget-mixed-list-style.php:64
+#: inc/widgets/widget-mixed-style.php:67
+#: inc/widgets/widget-single-feature-style.php:67
+msgid "Display Number Of Posts"
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:71
+#: inc/widgets/widget-feature-list-style.php:74
+#: inc/widgets/widget-grid-style.php:72
+#: inc/widgets/widget-list-feature-style.php:71
+#: inc/widgets/widget-mixed-list-style.php:70
+#: inc/widgets/widget-mixed-style.php:77
+#: inc/widgets/widget-single-feature-style.php:79
+msgid "Enable Categories"
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:76
+#: inc/widgets/widget-feature-list-style.php:79
+#: inc/widgets/widget-grid-style.php:77
+msgid "Enable Date"
+msgstr ""
+
+#: inc/widgets/widget-feature-grid-style.php:80
+msgid "Read More Button Title"
+msgstr ""
+
+#: inc/widgets/widget-feature-list-style.php:13
+msgid "Display Feature List Style Widget."
+msgstr ""
+
+#: inc/widgets/widget-feature-list-style.php:19
+msgid "Buzz Magazine: Feature List Style"
+msgstr ""
+
+#: inc/widgets/widget-feature-list-style.php:28
+#: inc/widgets/widget-feature-list-style.php:92
+msgid "Food"
+msgstr ""
+
+#: inc/widgets/widget-feature-list-style.php:36
+#: inc/widgets/widget-mixed-list-style.php:27
+#: inc/widgets/widget-mixed-list-style.php:34
+#: inc/widgets/widget-mixed-list-style.php:88
+#: inc/widgets/widget-mixed-style.php:38
+#: inc/widgets/widget-single-feature-style.php:33
+msgid "Business"
+msgstr ""
+
+#: inc/widgets/widget-feature-list-style.php:83
+#: inc/widgets/widget-mixed-list-style.php:79
+msgid "Read More Button Title:"
+msgstr ""
+
+#: inc/widgets/widget-feature-list-style.php:97
+#: inc/widgets/widget-grid-style.php:95
+#: inc/widgets/widget-list-feature-style.php:94
+#: inc/widgets/widget-mixed-list-style.php:93
+msgid "view all"
+msgstr ""
+
+#: inc/widgets/widget-grid-style.php:13 inc/widgets/widget-mixed-style.php:13
+msgid "Display Mixed List Style Widget."
+msgstr ""
+
+#: inc/widgets/widget-grid-style.php:19
+msgid "Buzz Magazine: Grid Style"
+msgstr ""
+
+#: inc/widgets/widget-grid-style.php:27 inc/widgets/widget-grid-style.php:35
+msgid "Tech"
+msgstr ""
+
+#: inc/widgets/widget-grid-style.php:90
+msgid "tech"
+msgstr ""
+
+#: inc/widgets/widget-list-feature-style.php:13
+msgid "Display List Feature Style Widget."
+msgstr ""
+
+#: inc/widgets/widget-list-feature-style.php:19
+msgid "Buzz Magazine: List Feature Style"
+msgstr ""
+
+#: inc/widgets/widget-list-feature-style.php:27
+#: inc/widgets/widget-list-feature-style.php:35
+#: inc/widgets/widget-list-feature-style.php:89
+msgid "Travel"
+msgstr ""
+
+#: inc/widgets/widget-list-feature-style.php:76
+#: inc/widgets/widget-mixed-list-style.php:75
+#: inc/widgets/widget-mixed-style.php:82 inc/widgets/widget-popular-post.php:73
+#: inc/widgets/widget-trend-popular.php:58
+msgid "Enable Post Meta"
+msgstr ""
+
+#: inc/widgets/widget-mixed-list-style.php:12
+msgid "Display Mixed List Style Widget"
+msgstr ""
+
+#: inc/widgets/widget-mixed-list-style.php:18
+msgid "Buzz Magazine: Mixed List Style"
+msgstr ""
+
+#: inc/widgets/widget-mixed-list-style.php:42
+msgid "widgets/mixed-list.png"
+msgstr ""
+
+#: inc/widgets/widget-mixed-style.php:19
+msgid "Buzz Magazine: Mixed Style"
+msgstr ""
+
+#: inc/widgets/widget-mixed-style.php:28 inc/widgets/widget-mixed-style.php:95
+#: inc/widgets/widget-single-feature-style.php:27
+msgid "Sports"
+msgstr ""
+
+#: inc/widgets/widget-mixed-style.php:72
+#: inc/widgets/widget-single-feature-style.php:74
+msgid "Note:-Changes occurs which have already value"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:13
+msgid "Display Popular Style Widget."
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:19
+msgid "Buzz Magazine Sidebar: Popular"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:28
+#: inc/widgets/widget-popular-post.php:85
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:36
+msgid "Feature Slider"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:64
+msgid "Choose Number"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:69
+#: inc/widgets/widget-trend-popular.php:54
+msgid "Enable category"
+msgstr ""
+
+#: inc/widgets/widget-popular-post.php:77
+msgid "Enable Content"
+msgstr ""
+
+#: inc/widgets/widget-recent-comment.php:18
+msgid "Your site&#8217;s most recent comments."
+msgstr ""
+
+#: inc/widgets/widget-recent-comment.php:23
+msgid "Buzz Magazine Sidebar:-Recent Comments"
+msgstr ""
+
+#: inc/widgets/widget-recent-comment.php:47
+msgid "Number of comments to show:"
+msgstr ""
+
+#: inc/widgets/widget-recent-comment.php:73
+msgid "Recent Comments"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:25
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:29
+msgid "Buzz Magazine Sidebar: Recent Posts"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:56
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:62
+msgid "Display post date?"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:66
+msgid "Display post content?"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:85
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:128
+msgid "(no title)"
+msgstr ""
+
+#: inc/widgets/widget-single-feature-style.php:13
+msgid "Add Widget to Display List Feature Style Widget."
+msgstr ""
+
+#: inc/widgets/widget-single-feature-style.php:19
+msgid "Buzz Magazine: Single Feature Style"
+msgstr ""
+
+#: inc/widgets/widget-single-feature-style.php:40
+msgid "widgets/single-feature-style.png"
+msgstr ""
+
+#: inc/widgets/widget-trend-popular.php:14
+msgid "Add Widget to Display Trending/Popular Post."
+msgstr ""
+
+#: inc/widgets/widget-trend-popular.php:20
+msgid "Buzz Magazine Sidebar: Latest/Popular"
+msgstr ""
+
+#: inc/widgets/widget-trend-popular.php:40
+msgid "Trend Per Post"
+msgstr ""
+
+#: inc/widgets/widget-trend-popular.php:47
+msgid "Latest Per Post"
+msgstr ""
+
+#: inc/widgets/widget-trend-popular.php:71
+msgid "Trending"
+msgstr ""
+
+#: inc/widgets/widget-trend-popular.php:72
+msgid "Latest"
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:26
+msgid "Previous:"
+msgstr ""
+
+#: single.php:27
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/slider/slider-layout2.php:15
+msgid "trending"
+msgstr ""
+
+#: template-parts/slider/slider-layout2.php:16
+msgid "latest"
+msgstr ""

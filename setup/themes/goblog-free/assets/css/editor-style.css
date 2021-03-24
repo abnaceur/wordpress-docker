@@ -1,0 +1,609 @@
+/*
+Theme Name: Goblog Free
+Description: Used to style the TinyMCE editor.
+*/
+/* =========================================
+============ TABLE OF CONTENTS: ============
+* Body
+* Font
+* Typography
+* Formating
+* Lists
+* Tables
+* Fixes Linked Images
+* Alignment
+* Caption
+* Galleries
+* Media Elements
+* Audio Player
+* Playlist Color Overrides: Light
+* Playlist Color Overrides: Dark 
+* Playlist Style Overrides
+========================================= */
+
+/* =================== Body =================== */
+body {
+    margin: 0;
+    background: #fff;
+    margin: 20px;
+    color: #333;
+    font-size: 17px;
+    word-wrap: break-word;
+    line-height: 1.6;
+}
+
+/* =================== Font =================== */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), url(../roboto/Roboto-Regular.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto'), url(../roboto/Roboto-Medium.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto'), url(../roboto/Roboto-Bold.ttf) format('truetype');
+    font-display: swap;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* =================== Typography =================== */
+body,
+button,
+input,
+select,
+textarea {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    word-wrap: break-word;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    line-height: 1.37;
+    margin: 0 0 0.50em;
+    padding: 0.7em 0 0;
+    color: #3a444d;
+    font-weight: 500;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+    padding-top: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+p {
+    margin: 0 0 1.3em;
+    padding: 0;
+    color: #656;
+}
+
+dfn,
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+address {
+    margin: 0 0 1.5em;
+}
+
+pre {
+    border: 1px solid #d8d8d8;
+    background: #f9f9f9;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono";
+    font-size: 15px;
+    font-size: 0.9375rem;
+}
+
+abbr,
+acronym {
+    cursor: help;
+    border-bottom: 1px dotted #211112;
+    text-decoration: none;
+}
+
+mark,
+ins {
+    background: #eee;
+    text-decoration: none;
+}
+
+big {
+    font-size: 125%;
+}
+
+blockquote {
+    quotes: """";
+    border-left: 5px solid #0671ef;
+    margin: 0.82em 0;
+    padding: 0.8em 2.2em;
+    background: #f9f9f9;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.7;
+    overflow: hidden;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote cite {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 0.5em;
+}
+
+q {
+    quotes: "“""”""‘""’";
+}
+
+blockquote:before,
+blockquote:after {
+    content: "";
+}
+
+:focus {
+    outline: none;
+}
+
+/* =================== Formating =================== */
+hr {
+    background-color: #bbb;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em;
+}
+
+/* =================== Lists =================== */
+ul,
+ol {
+    margin: 0 0 1.5em;
+    padding: 0;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 1.2em;
+}
+
+ol {
+    list-style: decimal;
+    margin-left: 1.2em;
+}
+
+li {
+    color: #656;
+}
+
+li>ul,
+li>ol {
+    margin-bottom: 0;
+    margin-left: 1.5em;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dd {
+    margin: 0 1.5em 1.5em;
+}
+
+a {
+    color: #0639a9;
+    text-decoration: none;
+}
+
+/* =================== Tables =================== */
+table {
+    border-collapse: collapse;
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+
+thead th {
+    padding-bottom: 0.5em;
+    background: #0671ef;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+th {
+    border: 1px solid #e6e6e6;
+    color: #fff;
+    padding: 0.4em;
+    text-align: center;
+    background: #0671ef;
+}
+
+th a {
+    color: #fff;
+}
+
+tr {
+    border: 1px solid #e6e6e6;
+}
+
+td {
+    padding: 0.4em;
+    border: 1px solid #e6e6e6;
+    padding-left: 2%;
+}
+
+tr a {
+    text-decoration: underline;
+}
+
+th:last-child,
+td:last-child {
+    padding-right: 0;
+}
+
+/* =================== Fixes Linked Images =================== */
+a img {
+    background: #fff;
+    -webkit-box-shadow: 0 0 0 6px #fff;
+    box-shadow: 0 0 0 6px #fff;
+}
+
+/* =================== Alignment =================== */
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+embed,
+iframe,
+object {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+    height: 500px;
+}
+
+/* =================== Caption =================== */
+.wp-caption {
+    max-width: 100%;
+    color: #888;
+    text-align: center;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* =================== Galleries =================== */
+.gallery-columns-1 .gallery-item {
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    width: 11.11%;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin: 0 0 1.5em;
+    padding: 0 1em 0 0;
+    width: 50%;
+}
+
+.gallery-item a,
+.gallery-item a:hover,
+.gallery-item a:focus,
+.widget-area .gallery-item a,
+.widget-area .gallery-item a:hover,
+.widget-area .gallery-item a:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.gallery-item a img {
+    display: block;
+    -webkit-transition: -webkit-filter 0.2s ease-in;
+    transition: -webkit-filter 0.2s ease-in;
+    transition: filter 0.2s ease-in;
+    transition: filter 0.2s ease-in, -webkit-filter 0.2s ease-in;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.gallery-item a:hover img,
+.gallery-item a:focus img {
+    -webkit-filter: opacity(60%);
+    filter: opacity(60%);
+}
+
+.gallery-caption {
+    display: block;
+    padding: 0 10px 0 0;
+    margin-bottom: 0;
+}
+
+.wp-caption,
+.gallery-caption {
+    color: #666;
+    font-size: 13px;
+    font-size: 0.8425rem;
+    font-style: italic;
+    margin-bottom: 1.5em;
+    max-width: 100%;
+    line-height: 1.50;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+    margin: 0.5em 0;
+    color: #666;
+    font-size: 13px;
+}
+
+.widget_media_gallery .gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 0 0.2em;
+    padding: 0.3em;
+}
+
+/* =================== Media Elements =================== */
+.mejs-container {
+    margin-bottom: 1.5em;
+}
+
+/* =================== Audio Player =================== */
+.mejs-controls a.mejs-horizontal-volume-slider,
+.mejs-controls a.mejs-horizontal-volume-slider:focus,
+.mejs-controls a.mejs-horizontal-volume-slider:hover {
+    background: transparent;
+    border: 0;
+}
+
+/* =================== Playlist Color Overrides: Light =================== */
+.wp-playlist-light {
+    border-color: #eee;
+    color: #222;
+}
+
+.wp-playlist-light .wp-playlist-current-item .wp-playlist-item-album {
+    color: #333;
+}
+
+.wp-playlist-light .wp-playlist-current-item .wp-playlist-item-artist {
+    color: #767676;
+}
+
+.wp-playlist-light .wp-playlist-item {
+    border-bottom: 1px dotted #eee;
+
+}
+
+.wp-playlist-light .wp-playlist-item:hover,
+.wp-playlist-light .wp-playlist-item:focus {
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: #767676;
+    color: #fff;
+}
+
+.wp-playlist-light a.wp-playlist-caption:hover,
+.wp-playlist-light .wp-playlist-item:hover a,
+.wp-playlist-light .wp-playlist-item:focus a {
+    color: #fff;
+}
+
+/* =================== Playlist Color Overrides: Dark =================== */
+.wp-playlist-dark {
+    background: #222;
+    border-color: #333;
+}
+
+.wp-playlist-dark .mejs-container .mejs-controls {
+    background-color: #333;
+}
+
+.wp-playlist-dark .wp-playlist-caption {
+    color: #fff;
+}
+
+.wp-playlist-dark .wp-playlist-current-item .wp-playlist-item-album {
+    color: #eee;
+}
+
+.wp-playlist-dark .wp-playlist-current-item .wp-playlist-item-artist {
+    color: #aaa;
+}
+
+.wp-playlist-dark .wp-playlist-playing {
+    background-color: #333;
+}
+
+.wp-playlist-dark .wp-playlist-item {
+    border-bottom: 1px dotted #555;
+}
+
+.wp-playlist-dark .wp-playlist-item:hover,
+.wp-playlist-dark .wp-playlist-item:focus {
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: #aaa;
+    color: #222;
+}
+
+.wp-playlist-dark a.wp-playlist-caption:hover,
+.wp-playlist-dark .wp-playlist-item:hover a,
+.wp-playlist-dark .wp-playlist-item:focus a {
+    color: #222;
+}
+
+/* =================== Playlist Style Overrides =================== */
+.wp-playlist {
+    padding: 0.625em 0.625em 0.3125em;
+}
+
+.wp-playlist-current-item .wp-playlist-item-title {
+    font-weight: 700;
+}
+
+.wp-playlist-current-item .wp-playlist-item-album {
+    font-style: normal;
+}
+
+.wp-playlist-current-item .wp-playlist-item-artist {
+    font-size: 10px;
+    font-size: 0.625rem;
+    font-weight: 800;
+    letter-spacing: 0.1818em;
+    text-transform: uppercase;
+}
+
+.wp-playlist-item {
+    padding: 0 0.3125em;
+    cursor: pointer;
+}
+
+.wp-playlist-item:last-of-type {
+    border-bottom: none;
+}
+
+.wp-playlist-item a {
+    padding: 0.3125em 0;
+    border-bottom: none;
+}
+
+.wp-playlist-item a,
+.wp-playlist-item a:focus,
+.wp-playlist-item a:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.wp-playlist-item-length {
+    top: 5px;
+}
+
+.the-content blockquote p {
+    margin: 0;
+}

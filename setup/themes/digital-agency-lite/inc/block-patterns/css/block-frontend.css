@@ -1,0 +1,108 @@
+.banner-section, .article-outer-box{
+  width: auto;
+  height: auto;
+}
+/*Banner section*/
+.banner-section{
+  min-height: 670px;
+}
+.banner-section .wp-block-column.is-vertically-aligned-center {
+  position: relative;
+  top: 50%;
+  left: 7%;
+}
+.banner-section h1 {
+  font-size: 42px;
+  font-weight: 800;
+}
+.banner-section p {
+  font-size: 15px !important;
+  letter-spacing: 0;
+  line-height: 2 !important;
+}
+.banner-section .wp-block-button.btn{
+	padding: 0 !important;
+}
+.banner-section .btn a:hover {
+  background: #111111 !important;
+  color: #fff !important;
+}
+.banner-section .wp-block-column.is-vertically-aligned-center.circle-banner-section {
+  position: relative;
+  top: 50%;
+  left: 0%;
+}
+.banner-section figure.aligncenter.size-large.is-resized {
+ 	border: solid 6px #fff;
+	border-radius: 50%;
+	padding: 0;
+}
+.banner-section .circle-banner-section img{
+	width: auto;
+}
+/*Article section*/
+.wp-block-cover.alignwide.has-white-background-color.has-background-dim.article-outer-box {
+  background: transparent;
+}
+.article-outer-box{
+  margin: -10em auto 0 !important;
+  max-width: 1000px !important; 
+}
+.article-outer-box h2 {
+  margin: 0 0 10px !important;
+  font-size: 20px;
+}
+.article-outer-box p{
+  text-align: center !important;
+  margin: 0 0 5px 0 !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+.wp-block-columns.alignwide.article-container {
+   margin-top: 20px;
+}
+.article-section{
+  padding: 30px !important;
+  min-height: 0;
+}
+.article-section:hover {
+  background: #fa5a56 !important;
+}
+.article-section:hover h3, .article-section:hover p {
+  color: #fff !important;
+}
+.article-section figure.aligncenter.size-large{
+	border: none !important;
+}
+.article-section h3 {
+  margin: 0 0 10px !important;
+  font-size: 16px;
+}
+.article-section p{
+  text-align: left !important;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+@media screen and (max-width:781px) {
+  .wp-block-column.is-vertically-aligned-center{
+    flex-basis: 100%!important;
+    margin: 20px;
+    position: static !important;
+  }
+  .article-outer-box {
+    margin: 0 auto !important;
+  }
+}
+@media screen and (max-width:1000px) {
+  .banner-section h1 {
+    font-size: 30px !important;
+  }
+  .alignwide.article-outer-box, .alignwide.article-container {
+    margin: 0;
+  }
+  .article-container .wp-block-column,.article-section{
+  	margin-bottom: 20px;
+  }
+}

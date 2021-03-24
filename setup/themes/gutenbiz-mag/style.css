@@ -1,0 +1,660 @@
+/*	
+	Theme Name:		Gutenbiz Mag
+	Theme URI:		https://risethemes.com/downloads/gutenbiz-mag/
+	Description:	Gutenbiz Mag, a free WordPress theme that is a completely responsive and elegant design that fits any online news portal. It's a child theme of Popular WordPress Theme Gutenbiz. It comes with powerful customization features including multiple theme options in the Customizer. This theme supports all of the post formats available in WordPress to display the posts including new Block Editor, Gutenbeg Blocks.
+	Author:			Rise Themes
+	Author URI: 	http://risethemes.com/
+    Template:		gutenbiz
+	Version:		1.0.2
+    Tested up to:   5.5
+    Requires PHP:   5.6
+	License:		GNU General Public License v2 or later
+	License URI:	http://www.gnu.org/licenses/gpl-2.0.html
+	Tags:			left-sidebar, right-sidebar, wide-blocks, block-styles, grid-layout, two-columns, flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, translation-ready, news, education, entertainment
+	Text Domain:	gutenbiz-mag
+*/
+
+
+/* top bar */
+
+.gutenbiz-topbar-wrapper {
+	background: #0099f7;
+	padding: 10px 0;
+}
+
+.gutenbiz-topbar-wrapper time {
+	color: #fff;
+	margin-right: 12px;
+}
+
+.gutenbiz-topbar-wrapper time i {
+	margin-right: 6px;
+}
+
+.gutenbiz-topbar-wrapper .time-wrapper {
+	display: flex;
+	color: #fff;
+}
+
+.gutenbiz-topbar-wrapper .time-wrapper div#gutenbiz-digital-clock {
+	color: #fff;
+}
+
+.gutenbiz-topbar-wrapper .time-wrapper .gutenbiz-digital-clock-wrapper {
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.gutenbiz-topbar-wrapper .time-wrapper .gutenbiz-digital-clock-wrapper i {
+	margin-right: 6px;
+}
+
+.gutenbiz-topbar-socialmenu ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 767px) {
+	.gutenbiz-topbar-wrapper .time-wrapper,
+	.gutenbiz-topbar-socialmenu {
+		justify-content: center;
+		margin: 5px 0;
+	}
+}
+
+
+/* header style */
+
+.gutenbiz-bottom-header-wrapper {
+	padding: 50px 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.gutenbiz-bottom-header-wrapper:after {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.gutenbiz-bottom-header-wrapper * {
+	position: relative;
+	z-index: 9;
+}
+
+body .site-branding .site-title {
+	font-size: 42px;
+}
+
+body .site-branding .site-title a:focus {
+	outline: thin dotted #fff;
+}
+.gutenbiz-main-menu-wrapper {
+	background: #141414;
+	border-bottom: 3px solid #ee4930;
+}
+
+.gutenbiz-navigation-n-options {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+.gutenbiz-navigation-n-options .gutenbiz-main-menu>ul>li {
+	padding: .5rem 0;
+}
+
+.gutenbiz-navigation-n-options .search-form label input.search-field {
+	height: 45px;
+	border-radius: 25px;
+	min-height: auto;
+}
+
+.gutenbiz-main-menu>ul>li.home a:before,
+.gutenbiz-main-menu>ul>li.menu-item-home a:before {
+	font-family: fontAwesome;
+	content: "\F015";
+	font-size: 28px;
+	right: -15px;
+	color: #fff;
+}
+
+.gutenbiz-main-menu>ul>li a:after {
+	display: none;
+}
+
+.gutenbiz-main-menu>ul>li.home+li,
+.gutenbiz-main-menu>ul>li.menu-item-home+li {
+	margin-left: 20px;
+}
+
+.gutenbiz-main-menu>ul>li.home a,
+.gutenbiz-main-menu>ul>li.menu-item-home a {
+	font-size: 0;
+	line-height: 0;
+	position: relative;
+	padding: 7px 15px;
+	display: flex;
+}
+
+.gutenbiz-main-menu>ul>li.home,
+.gutenbiz-main-menu>ul>li.menu-item-home {
+	align-items: center;
+	display: flex;
+}
+
+.gutenbiz-main-menu>ul>li>a>span {
+	position: absolute;
+	top: -15px;
+	left: calc(100% - 40px);
+	background: #000;
+	color: #fff;
+	font-size: 10px;
+	padding: 3px 5px;
+	line-height: 10px;
+	z-index: 1;
+	min-width: 60px;
+	text-align: center;
+}
+
+.gutenbiz-main-menu>ul>li>a>span:after {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #000;
+	left: 3px;
+	bottom: -4px;
+}
+
+.gutenbiz-main-menu>ul>li.white a span {
+	background: white;
+}
+
+.gutenbiz-main-menu>ul>li.white a span:after {
+	border-top: 5px solid white;
+}
+
+.gutenbiz-main-menu>ul>li.red a span {
+	background: red;
+}
+
+.gutenbiz-main-menu>ul>li.red a span:after {
+	border-top: 5px solid red;
+}
+
+.gutenbiz-main-menu>ul>li.yellow a span {
+	background: yellow;
+	color: #000;
+}
+
+.gutenbiz-main-menu>ul>li.yellow a span:after {
+	border-top: 5px solid yellow;
+}
+
+.gutenbiz-main-menu>ul>li.blue a span {
+	background: blue;
+}
+
+.gutenbiz-main-menu>ul>li.blue a span:after {
+	border-top: 5px solid blue;
+}
+
+.gutenbiz-main-menu>ul>li.green a span {
+	background: green;
+}
+
+.gutenbiz-main-menu>ul>li.green a span:after {
+	border-top: 5px solid green;
+}
+
+.gutenbiz-main-menu>ul>li.orange a span {
+	background: orange;
+}
+
+.gutenbiz-main-menu>ul>li.orange a span:after {
+	border-top: 5px solid orange;
+}
+
+@media (min-width: 920px) {
+	.menu-toggler {
+		display: none;
+	}
+}
+
+
+/* trending news style */
+
+body.home:not(.page-template-full-width) #content {
+	padding-top: 0;
+}
+
+.gutenbiz-trending-news {
+	background: #000;
+	padding: 15px 0;
+	height: 75px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.gutenbiz-trending-news .marquee-wrapper {
+	display: flex;
+	text-align: center;
+}
+
+.gutenbiz-trending-news .marquee-wrapper ul {
+	margin: 0 0 0 37px;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	max-width: calc(100% - 180px);
+	overflow: hidden;
+}
+
+.gutenbiz-trending-news .marquee-wrapper ul .js-marquee-wrapper {
+	display: flex;
+}
+
+.gutenbiz-trending-news .marquee-wrapper ul .js-marquee {
+	display: flex;
+}
+
+.gutenbiz-trending-news .marquee-wrapper ul .js-marquee li {
+	background: #fff;
+	padding: 0 20px 0 0;
+	margin: 0 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	min-width: 150px;
+	text-align: left;
+}
+
+.gutenbiz-trending-news .marquee-wrapper ul .js-marquee li a {
+	color: #000;
+	transition: all 0.3s;
+}
+
+.gutenbiz-trending-news .marquee-wrapper ul .js-marquee li a:hover {
+	color: #000;
+}
+
+.gutenbiz-trending-news .marquee-wrapper ul .js-marquee li img {
+	height: 45px;
+	width: 45px;
+	object-fit: cover;
+	margin-right: 13px;
+}
+
+.gutenbiz-trending-news .marquee-wrapper span.top-stories {
+	justify-content: flex-start;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	min-width: 150px;
+	background: #ee4930;
+	background-size: 400% 400%;
+	animation: gradient 9s ease infinite;
+}
+
+.gutenbiz-trending-news .marquee-wrapper span.top-stories>div {
+	background: #ee4930;
+	color: #ffffff;
+	margin-right: 8px;
+	width: 50px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+	border-right: 3px solid #fff;
+}
+
+
+/* featured news sections */
+
+.gutenbiz-feature-news-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: -15px;
+}
+
+.gutenbiz-feature-news-wrapper .fetured-three-post {
+	max-width: 60%;
+	flex: 0 0 60%;
+}
+
+.gutenbiz-feature-news-wrapper .fetured-two-post {
+	max-width: 40%;
+	flex: 0 0 40%;
+}
+
+.gutenbiz-feature-news-wrapper article {
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	overflow: hidden;
+	transition: all .3s;
+}
+
+.gutenbiz-feature-news-wrapper article:hover {
+	background-size: 105%;
+}
+
+.gutenbiz-feature-news-wrapper article:after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
+	transition: all 0.3s;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000);
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-feature-news-inner {
+	padding: 15px 15px;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-feature-news-inner .feature-news-content {
+	display: none;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-feature-news-inner .gutenbiz-news-title {
+	margin: 10px 0 0;
+}
+
+.fetured-three-post article {
+	min-height: 400px;
+}
+
+.fetured-two-post article {
+	min-height: 185px;
+}
+
+.gutenbiz-feature-news-wrapper .fetured-two-post .gutenbiz-feature-news-inner .gutenbiz-feature-news-content p {
+	display: none;
+}
+
+.gutenbiz-feature-news-wrapper .fetured-three-post .gutenbiz-feature-news-inner .gutenbiz-feature-news-content p {
+	display: block;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	z-index: 9;
+	cursor: pointer;
+	background: #fff;
+	width: 45px;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s;
+}
+
+.fetured-three-post:hover .gutenbiz-arrow {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+.gutenbiz-feature-news-wrapper .gutenbiz-arrow svg {
+	width: 30px;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-arrow.gutenbiz-arrow-prev {
+	left: 15px;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-arrow.gutenbiz-arrow-next {
+	right: 15px;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-feature-news-inner:first-child article .gutenbiz-news-title,
+.gutenbiz-feature-news-wrapper .gutenbiz-feature-news-inner:nth-child(2) article .gutenbiz-news-title {
+	margin: 10px 0;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-feature-news-inner .gutenbiz-feature-news-content {
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-feature-news-inner .gutenbiz-feature-news-content p {
+	color: #f0eeee;
+	line-height: 1.8;
+	margin: 0;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-feature-news-inner .gutenbiz-news-title {
+	font-size: 18px;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-feature-news-inner .gutenbiz-news-title a {
+	color: #fff;
+	transition: all 0.3s;
+}
+
+.date-n-cat-wrapper {
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.date-n-cat-wrapper a {
+	color: #fff;
+	font-size: 14px;
+	transition: all 0.3s;
+	margin: 0;
+}
+
+.date-n-cat-wrapper a:visited {
+	color: #fff;
+}
+
+.date-n-cat-wrapper .post-categories {
+	align-items: center;
+}
+
+.date-n-cat-wrapper .post-categories li {
+	margin-top: 0;
+	font-size: 14px;
+}
+
+.date-n-cat-wrapper .post-categories li a:visited {
+	color: #fff;
+}
+
+.date-n-cat-wrapper .post-categories:before,
+.date-n-cat-wrapper .post-categories li:nth-child(3) + li  {
+	display: none;
+}
+
+.date-n-cat-wrapper span.posted-on:before {
+	font: normal normal normal 14px FontAwesome;
+	content: "\F073";
+	margin-right: 0.3rem;
+}
+
+.date-n-cat-wrapper span.posted-on:after {
+	content: "";
+}
+.date-n-cat-wrapper span.posted-on{
+	margin-right: 8px;
+}
+.post-permalink {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.post-permalink a {
+    display: block;
+}
+
+.post-permalink a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 767px) {
+	.gutenbiz-feature-news-wrapper .fetured-three-post,
+	.gutenbiz-feature-news-wrapper .fetured-two-post {
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+	.fetured-three-post article {
+		min-height: auto;
+	}
+}
+
+
+/* related post */
+
+.gutenbiz-related-post h2 {
+	margin: 0 0 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.gutenbiz-related-post .gutenbiz-related-post-content {
+	background: #fafafa;
+	margin-bottom: 30px;
+	transition: all 0.3s;
+	transform: translateY(0);
+}
+
+.gutenbiz-related-post .gutenbiz-related-post-content .gutenbiz-related-post-text {
+	padding: 20px;
+}
+
+.gutenbiz-related-post .gutenbiz-related-post-content h3 {
+	margin: 0 0 12px 0;
+	font-size: 16px;
+}
+
+.gutenbiz-related-post .gutenbiz-related-post-content p {
+	margin: 0;
+}
+
+.gutenbiz-related-post .gutenbiz-related-post-content:hover {
+	transform: translateY(-10px);
+}
+
+
+/* cat list */
+
+.post-categories li {
+	margin-top: 0.3rem;
+}
+
+body .post-categories li a {
+	background: #000;
+	color: #fff !important;
+}
+
+body .post-categories li a:hover {
+	background: #021;
+	color: #fff;
+}
+
+body .post-categories li:nth-child(2) a {
+	background: green;
+	color: #fff;
+}
+
+body .post-categories li:nth-child(3) a {
+	background: orange;
+	color: #fff;
+}
+
+body .post-categories li:nth-child(4) a {
+	background: black;
+	    color: #fff;
+}
+
+body .post-categories li:nth-child(5) a {
+	background: yellow;
+	color: #000;
+}
+
+.widget_tag_cloud .tagcloud a {
+	font-size: 11px !important;
+}
+
+body .gutenbiz-post {
+	transition: all .3s;
+}
+
+body .gutenbiz-post:hover {
+	box-shadow: 1px 1px 7px #bcbcbc;
+}
+
+body .gutenbiz-post .image-full {
+	background-size: 100%;
+	background-repeat: no-repeat !important;
+	transition: all .5s;
+	padding-bottom: 60%;
+}
+
+body .gutenbiz-post:hover .image-full {
+	background-size: 110%;
+}
+
+.gutenbiz-post .image-full:after {
+	display: none;
+}
+
+.gutenbiz-btn-primary:focus, 
+.comment-respond .comment-form input[type="submit"]:focus, 
+.no-results.not-found a:focus{
+	outline: 2px dotted #9d9595;
+}
+
+body .menu-toggler span {
+	background: #fff;
+}
+
+body .menu-toggler:focus {
+    outline: 2px dotted #fff;
+}
+
+.gutenbiz-feature-news-wrapper .gutenbiz-arrow {
+	height: 45px;
+	font-size: 32px;
+}
+
+@media (min-width: 767px) {
+	.mr-mobile-menu {
+		display: none;
+	}
+}

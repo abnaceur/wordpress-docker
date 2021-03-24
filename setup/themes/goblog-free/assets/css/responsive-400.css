@@ -1,0 +1,28 @@
+/* =========================================
+============ TABLE OF CONTENTS: ============
+* Responsive Header Navigasi Primary 1
+* Responsive Page File
+* Responsive Single File
+========================================= */
+/* =================== Responsive Header Navigasi Primary 1 =================== */
+.primary1 .logo-mobile img {
+    width: 55%;
+}
+
+/* =================== Responsive Page File =================== */
+.main-page header .breadcrumbs {
+    margin-top: 12px;
+}
+
+/* =================== Responsive Single File =================== */
+.main-single header .breadcrumbs {
+    margin-top: 12px;
+}
+
+.main-single h1 {
+    font-size: 28px;
+}
+
+.main-single .sosmed-txt {
+    display: none;
+}

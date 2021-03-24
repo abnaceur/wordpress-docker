@@ -1,0 +1,7 @@
+= Version 1.0.0 =
+* Initial Release
+
+= Version 1.0.1 =
+* Fixed coding issues.
+* Improved coding.
+* Improved accessibility.

@@ -1,0 +1,479 @@
+/*
+Theme Name:     Agency Bell
+Theme URI:      https://sparklewpthemes.com/wordpress-themes/agencybell/
+Author:         sparklewpthemes
+Author URI:     https://sparklewpthemes.com/
+Description:    Agency bell is a perfect and professional advanced multipurpose impressive, engaging and fully customizable, responsive free business WordPress theme that is easy to use. Agency bell multipurpose theme which helps you to create different types of business websites ( consultant, finance, agency, industries, education, fashion, health & medical, wedding, photography, gym, architecture, lawyer ) and many more websites with the helps theme default customizer features and 10+ custom elementor addon. Agency bell theme is also fully compatible with the latest page builders plugins ( Elementor, SiteOrigin, Visual Composer ) and also created 10+ different widget, which you can easily implement in any page or post to create, edit and update beautifully page design, also theme has some exciting features like ( reorder each home section ), cross-browser compatible, translation ready, site speed optimized, SEO friendly theme and also supports WooCommerce and some other external plugins like Jetpack, Polylang, Yoast SEO, Contact Form 7 and many more plugins. If you face any problem related to our theme, you can refer to our theme documentation or contact our friendly support team.
+Version:        1.0.2
+Tested up to:   5.6
+Requires PHP:   7.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       construction-light
+Text Domain:    agencybell
+Tags:           one-column, two-columns, right-sidebar, left-sidebar, custom-header, custom-background, custom-menu, translation-ready, featured-images, theme-options, custom-logo, e-commerce, footer-widgets
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Agency Bell is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+sparklewpthemes is distributed under the terms of the GNU GPL v3 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+.banner-slider .slider-item {
+    height: 100vh;
+}
+.admin-bar .conslight-search-close{
+    top: 32px;
+}
+.cons_light_feature.layout_three .service-tab-content .services-tab-content a{
+    color: #ffb922;
+}
+/**
+ * Header
+*/
+#childmasthead {
+    height: 90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: height .3s ease;
+    -moz-transition: height .3s ease;
+    -webkit-transition: height .3s ease;
+}
+.nav-relateive #childmasthead{
+    position: relative;
+}
+.headerthree .nav-classic{
+    background: rgba(0,0,0,0.54);    
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,.1);
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
+
+.headerthree .nav-classic .header-middle-inner {
+    height: 80px;
+    display: flex;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerthree .nav-classic .site-branding h1{
+    font-size: 30px;
+}
+.headerthree .nav-classic .site-branding h1 a, 
+.headerthree .nav-classic .site-branding p {
+    color: #ffffff;
+}
+
+/**
+ * Menu
+*/
+#childmasthead.site-header.headerthree.disable{
+    position: relative;
+}
+
+.headerthree .nav-classic .nav-menu .box-header-nav {
+    background: transparent;
+}
+.headerthree .nav-classic .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerthree .nav-classic .extralmenu-wrap {
+    position: relative;
+}
+.headerthree .nav-classic .extralmenu-wrap ul li a.searchicon {
+    margin-right: 0;
+    font-size: 20px;
+}
+.headerthree .box-header-nav .main-menu .page_item a, 
+.headerthree .box-header-nav .main-menu>.menu-item>a {
+    margin: 17px 0;
+    padding: 10px 15px;
+}
+/**
+ * Slider
+*/
+.banner-slider.owl-carousel.features-slider, .breadcrumb {
+    margin-top: 0;
+}
+.banner-table-cell .mx-auto{
+    background-color: rgba(0,0,0,0.3);
+    padding: 45px 30px;
+}
+.banner-slider .slider-item .slider-content .slider-title{
+    font-size: 42px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.banner-slider .slider-item .slider-content p {
+    font-size: 20px;
+}
+
+
+/**
+ * Banner Owl Carousel Next & Prev Nav
+*/
+.banner-slider .owl-nav {
+    display: block;
+}
+.banner-slider.owl-carousel .owl-nav button.owl-next, 
+.banner-slider.owl-carousel .owl-nav button.owl-prev {
+    height: 50px;
+    width: 50px;
+    top: auto;
+    bottom: 30px;
+    margin: 0;
+    left: 50%;
+    right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    background-color: #feb921;
+    color: #fff;
+    opacity: 1;
+}
+.banner-slider.owl-carousel .owl-nav [class*='owl-']:hover {
+    background-color: #ffffff;
+    color: #feb921;
+}
+.banner-slider.owl-carousel .owl-nav [class*='owl-']:focus {
+    outline: 0;
+}
+.banner-slider.owl-carousel .owl-nav button.owl-prev {
+    margin-left: -55px;
+}
+.banner-slider.owl-carousel .owl-nav button.owl-next {
+    margin-right: -55px;
+}
+
+/**
+ * Slider Text Animation
+*/
+.owl-item.active .slider-content h2.slider-title {
+    -webkit-animation-name: animLeft;
+    animation-name: animLeft;
+    -webkit-animation: animLeft 1s ease 500ms both;
+    animation: animLeft 1s ease 500ms both;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-animation-delay: 1200ms;
+    animation-delay: 1200ms;
+}
+.owl-item.active .slider-content p {
+    -webkit-animation-name: animLeft;
+    animation-name: animLeft;
+    -webkit-animation: animLeft 1s ease 500ms both;
+    animation: animLeft 1s ease 500ms both;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-animation-delay: 2500ms;
+    animation-delay: 2500ms;
+}
+.owl-item.active .slider-content .btn {
+    -webkit-animation-name: animLeft;
+    animation-name: animLeft;
+    -webkit-animation: animLeft 1s ease 500ms both;
+    animation: animLeft 1s ease 500ms both;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-animation-delay: 3500ms;
+    animation-delay: 3500ms;
+}
+@-webkit-keyframes animLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        -webkit-transition: all .3s ease .6s;
+        transition: all .3s ease .6s;
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        -webkit-transition: all .3s ease .6s;
+        transition: all .3s ease .6s;
+    }
+}
+
+/* Feel free to change duration  */ 
+.animated  {
+    -webkit-animation-duration : 1000 ms  ;
+    animation-duration : 1000 ms  ;
+    -webkit-animation-fill-mode : both  ;
+    animation-fill-mode : both  ;
+  }  
+  /* .owl-animated-out - only for current item */ 
+  /* This is very important class. Use z-index if you want move Out item above In item */ 
+  .owl-animated-out {
+    z-index : 1 
+     }
+  /* .owl-animated-in - only for upcoming item
+  /* This is very important class. Use z-index if you want move In item above Out item */ 
+  .owl-animated-in {
+    z-index : 0 
+     }
+  /* .fadeOut is style taken from Animation.css and this is how it looks in owl.carousel.css:  */ 
+  .fadeOut  {
+    -webkit-animation-name : fadeOut  ;
+    animation-name : fadeOut  ;
+  }  
+  @-webkit-keyframes  fadeOut  {
+    0% {
+      opacity : 1   ;
+    }  
+    100% {
+      opacity : 0   ;
+    }  
+  }
+  @keyframes  fadeOut  {
+    0% {
+      opacity : 1   ;
+    }  
+    100% {
+      opacity : 0   ;
+    }  
+  }
+
+/**
+ * Promo Services Area
+*/
+.cons_light_feature.promo_light_feature {
+    background: transparent;
+}
+.cons_light_feature.promo_light_feature .feature-list .bottom-content {
+    padding: 50px 35px;
+}
+.cons_light_feature.promo_light_feature .feature-list .box {
+    background: #feb921;
+    color: #ffffff;
+}
+.cons_light_feature.promo_light_feature .feature-list .icon-box{
+    position: relative;
+    top: 0;
+}
+.cons_light_feature.promo_light_feature .feature-list .icon-box {
+    width: auto;
+    height: auto;
+    line-height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+}
+.cons_light_feature.promo_light_feature .feature-list .icon-box i {
+    font-size: 35px;
+}
+.cons_light_feature.promo_light_feature .feature-list h3{
+    font-size: 22px;
+    color: #ffffff;
+}
+.cons_light_feature.promo_light_feature .feature-list .box h3 a:after{
+    display: none;
+}
+.cons_light_feature.promo_light_feature .feature-list p{
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 18px;
+}
+
+.cons_light_feature.promo_light_feature .feature-list a{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.cons_light_feature.promo_light_feature .feature-list a::after {
+    display: inline-block;
+    vertical-align: top;
+    content: '\f105';
+    margin-left: 5px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+}
+
+/**
+ * About Us
+*/
+.about_us_front .text-center {
+    text-align: center!important;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.about_us_front p{
+    font-size: 18px;
+}
+.about_us_front {
+    padding: 30px 0 60px;
+}
+/**
+ * Services Area Tabs
+*/
+#cl_services {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 99;
+}
+#cl_services:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+.cons_light_feature .section-title,
+.cons_light_feature .section-tagline{
+    color: #ffffff;
+}
+.cons_light_feature {
+    padding: 60px 0;
+}
+ul.services-tab {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+}
+ul.services-tab li {
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+}
+ul.services-tab li a {
+    display: block;
+    color: #ffffff;
+    padding: 20px 45px;
+}
+ul.services-tab li i {
+    margin-bottom: 10px;
+}
+ul.services-tab li span {
+    display: block;
+}
+
+.services-tab-content {
+    background: #ffffff;
+    padding: 60px;
+}
+.services-tab-content.hidden{
+    display: none;
+}
+
+/**
+ * Portfolio
+*/
+.cons_ligcons_light_portfolio-section {
+    margin: 60px 0;
+}
+
+/**
+ * Blog
+*/
+.articlesListing .article h3 {
+    font-size: 22px;
+}
+
+/**
+ * Client Logo
+*/
+.cons_light_client_logo_layout_two {
+    background: #f9f8f8;
+    padding: 50px 0 80px;
+}
+.cons_light_client_logo_layout_two .box {
+    background: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+/**
+ * Breadcrumnbs
+*/
+.breadcrumb {
+    padding: 180px 0 100px;
+}
+
+/**
+ * Main Footer
+*/
+.site-footer .widget {
+    margin: 3em 0 2em;
+}
+
+.site-footer .widget .widget-title {
+    border-bottom: 0;
+    margin-bottom: 30px;
+}
+.site-footer .widget h2.widget-title:before {
+    width: 35px;
+}
+.site-footer .widget ul li {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+/**
+ * Sub Footer
+*/
+.sub_footer {
+    background-color: #1a1919;
+    padding: 25px 0;
+    line-height: 1.2;
+}
+
+
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+    #childmasthead {
+        height: auto;
+        position: relative;
+    }
+
+    .site-branding{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .banner-slider.owl-carousel .owl-nav button.owl-next, 
+    .banner-slider.owl-carousel .owl-nav button.owl-prev {
+        bottom: 5px;
+    }
+
+    .headerthree .nav-classic .nav-menu {
+        display: block;
+    }
+
+    .headerthree .box-header-nav .main-menu .page_item a, 
+    .headerthree .box-header-nav .main-menu>.menu-item>a {
+        margin: 0;
+        padding: 12px 10px;
+    }
+
+    .headerthree .nav-classic .nav-menu .box-header-nav {
+        top: 80px;
+    }
+}

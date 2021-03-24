@@ -1,0 +1,1055 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog99\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-11 07:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#: wp99themes/customizer/custom-controls/links/links.php:40
+msgid " Menu links"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/archive-blog-page.php:89
+msgid " Select layout 1) List 2) Grid and 3) Masonry. "
+msgstr ""
+
+#. %d: ID of a post.
+#: wp99themes/inc/template-functions.php:361
+#, php-format
+msgid "#%d (no title)"
+msgstr ""
+
+#: wp99themes/inc/woocommerce.php:415
+msgid "%"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: wp99themes/inc/template-tags.php:66
+msgid ", "
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:37
+#: wp99themes/widgets/blog99-footer-contact-info.php:45
+#: wp99themes/widgets/blog99-footer-contact-info.php:49
+msgid "012-345-6789"
+msgstr ""
+
+#: wp99themes/template-parts/content-404.php:17
+msgid "404"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: index.php:63 index.php:64
+msgid ""
+"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"10\" "
+"viewBox=\"0 0 18 10\"><g fill=\"none\" fill-rule=\"evenodd\" stroke=\"#FFF\">"
+"<path d=\"M17 5.1H.075M13.31 9.508L17 4.845 13.31.1\"></path></g></svg>"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:282
+#: wp99themes/widgets/blog99-sidebar-author.php:29
+#: wp99themes/widgets/blog99-sidebar-author.php:105
+msgid "About Author"
+msgstr ""
+
+#: wp99themes/core/class-register-widget.php:29
+#: wp99themes/core/class-register-widget.php:43
+#: wp99themes/core/class-register-widget.php:57
+#: wp99themes/core/class-register-widget.php:73
+#: wp99themes/core/class-register-widget.php:88
+#: wp99themes/core/class-register-widget.php:103
+msgid "Add widgets here."
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:74
+#: wp99themes/customizer/panels/theme-options/top-header.php:53
+msgid "Address"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:32
+msgid "Address "
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-list.php:29
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:106
+msgid "all"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:268
+msgid "Archives"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:101
+msgid "Auto"
+msgstr ""
+
+#. Base ID
+#: wp99themes/widgets/blog99-sidebar-list.php:18
+msgid "B99 Sidebar: Post List"
+msgstr ""
+
+#: wp99themes/template-parts/content-404.php:27
+msgid "Back To Home"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:81
+msgid "Background Attachment"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:63
+msgid "Background Position"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:45
+msgid "Background Repeat"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:97
+msgid "Background Size"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:33
+msgid "Barlin"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/archive-blog-page.php:88
+msgid "Blog Layout"
+msgstr ""
+
+#. Name of the theme
+msgid "Blog99"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Blog99 Theme is a modern Gutenberg compatible eye-catching designed free "
+"WordPress theme for bloggers. This blog theme features a modern, elegant and "
+"clean layout along with a fully responsive design especially for creating a "
+"personal blog, travel blog, and activity blog. Using Blog99, You can share "
+"your ideas on various topics such as travel, lifestyle, food, fashion, "
+"magazine and many more. It is a Speed &amp; SEO optimized theme which helps "
+"your website perform well in search engine ranking. It is cross-browser "
+"compatible, SEO optimized and responsive looks beautiful on any device and "
+"screen sizes. If you are looking for demo content &amp; support kindly do "
+"log-on to https://wp99themes.com/"
+msgstr ""
+
+#. Base ID
+#: wp99themes/widgets/blog99-sidebar-author.php:18
+msgid "Blog99: Author Info"
+msgstr ""
+
+#. Base ID
+#: wp99themes/widgets/blog99-footer-contact-info.php:18
+msgid "Blog99: Contact Info"
+msgstr ""
+
+#. Base ID
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:18
+msgid "Blog99: Follow Us"
+msgstr ""
+
+#: wp99themes/meta-box/blog99-post-metabox.php:54
+msgid "Both Sidebar"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/breadcrumb.php:78
+msgid "Breadcrumb Nav Menu"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/breadcrumb.php:56
+msgid "Breadcrumb Section Title"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/breadcrumb.php:34
+msgid "Breadcrumb Sections"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/breadcrumb.php:15
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:264
+msgid "Browse:"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/grid-categorys.php:76
+msgid "Category Layout"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:69
+msgid "Center"
+msgstr ""
+
+#: footer.php:37
+msgid "Close Menu"
+msgstr ""
+
+#. %s is the page number.
+#: wp99themes/compatibility/class-breadcrumb-trail.php:274
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:28
+msgid "Contact Info"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:102
+msgid "Contain"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: wp99themes/template-parts/content-single.php:83
+#: wp99themes/template-parts/content-page.php:30
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: wp99themes/inc/template-functions.php:137
+msgid "Copyright  &copy; "
+msgstr ""
+
+#: wp99themes/inc/customizer.php:103
+msgid "Cover"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/top-header.php:33
+msgid "Creat Top Nav Menu"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:790
+#: wp99themes/compatibility/class-breadcrumb-trail.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/single-page.php:74
+msgid "Disable Author Section"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/footer.php:30
+msgid "Disable Footer Widget"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/single-page.php:53
+#: wp99themes/customizer/panels/theme-options/archive-blog-page.php:30
+msgid "Disable Meta Information"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/general-settings.php:90
+msgid "Disable page scroll animation"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/general-settings.php:110
+msgid "Disable sidebar sticky"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-author.php:19
+msgid "Display author information."
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/grid-categorys.php:77
+msgid "Display category in different layout"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:19
+msgid "Display contact information"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:115
+msgid "Display post image from selected category"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/grid-categorys.php:56
+msgid "Display selected category"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-list.php:19
+msgid "Display Sidebar Post List."
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:19
+msgid "Display Social Links."
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: wp99themes/inc/template-tags.php:103
+#: wp99themes/template-parts/content-page.php:53
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:119
+#: wp99themes/customizer/panels/theme-options/top-header.php:69
+msgid "Email"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:40
+msgid "Email "
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/general-settings.php:129
+msgid "Enable Dark Version"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/general-settings.php:130
+msgid "Enable Dark Version theme"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:95
+msgid "Enable Readmore Buttom"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:31
+msgid "Enable Slider"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:30
+msgid "Enable Social Icon"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/general-settings.php:70
+msgid "Enable Sticky Menu"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/top-header.php:32
+msgid "Enable Top Header"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:53
+#: wp99themes/widgets/blog99-footer-contact-info.php:57
+msgid "example.com"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:41
+msgid "example@gmail.com"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:117
+msgid "Facebook"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:139
+msgid "Facebook URL"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:44
+msgid "Facebook URL:"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:164
+msgid "Fax"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:48
+msgid "Fax "
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/grid-categorys.php:11
+msgid "Features Category Section"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:85
+msgid "Fixed"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:28
+msgid "Follow me on"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/footer.php:47
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/footer.php:11
+msgid "Footer Settings"
+msgstr ""
+
+#: wp99themes/core/class-register-widget.php:101
+msgid "Footer Widget Area Four"
+msgstr ""
+
+#: wp99themes/core/class-register-widget.php:55
+msgid "Footer Widget Area One"
+msgstr ""
+
+#: wp99themes/core/class-register-widget.php:86
+msgid "Footer Widget Area Three"
+msgstr ""
+
+#: wp99themes/core/class-register-widget.php:71
+msgid "Footer Widget Area Two"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/theme-layout.php:12
+msgid "Full WebPage Layout"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/general-settings.php:27
+msgid "General Settings"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:236
+#: wp99themes/customizer/panels/theme-options/header-settings.php:251
+msgid "Header description font size"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:111
+msgid "Header Layout"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:11
+msgid "Header Layout Settings"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:204
+msgid "Header title font"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:220
+msgid "Header title font size"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:91
+msgid "Hide site description"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/grid-categorys.php:32
+msgid "hide/show category list in home page"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:32
+msgid "hide/show slider block"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:31
+msgid "hide/show social icons block"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:52
+msgid "hide/show woocommerce cart icon; only works if woocommerce enable"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:266
+msgid "Home"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/sidebar-layout.php:29
+msgid "Home & Category Page Layout"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/archive-blog-page.php:11
+msgid "Home & Category Posts Settings"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/sidebar-layout.php:30
+msgid "Home and category page sidebar layout."
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/archive-blog-page.php:66
+msgid "HomePage Header Title"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://wp99themes.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://wp99themes.com/wordpress-themes/blog99/"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:77
+#: wp99themes/widgets/blog99-footer-contact-info.php:99
+#: wp99themes/widgets/blog99-footer-contact-info.php:122
+#: wp99themes/widgets/blog99-footer-contact-info.php:145
+#: wp99themes/widgets/blog99-footer-contact-info.php:167
+#: wp99themes/widgets/blog99-footer-contact-info.php:190
+#: wp99themes/widgets/blog99-footer-contact-info.php:213
+msgid "Icons:"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:104
+msgid "Inherit"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:105
+msgid "Initial"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:119
+msgid "Instagram"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:54
+msgid "Instagram URL:"
+msgstr ""
+
+#: wp99themes/template-parts/content-404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: wp99themes/template-parts/content-none.php:48
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: wp99themes/meta-box/blog99-post-metabox.php:24
+msgid "Layout Setting"
+msgstr ""
+
+#. %s: post title
+#: wp99themes/inc/template-tags.php:86
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:68
+msgid "Left"
+msgstr ""
+
+#: wp99themes/meta-box/blog99-post-metabox.php:45
+msgid "Left Sidebar"
+msgstr ""
+
+#: wp99themes/core/class-register-widget.php:41
+msgid "Left Sidebar Widget Area"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:122
+msgid "Linked In"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:69
+msgid "Linkedin URL:"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: wp99themes/inc/template-tags.php:73
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: wp99themes/template-parts/header/header-two.php:85
+#: wp99themes/template-parts/header/header-one.php:55
+msgid "Main Menu"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:11
+msgid "Main Slider Settings"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:121
+msgid "Medium"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:64
+msgid "Medium URL:"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: wp99themes/compatibility/class-breadcrumb-trail.php:276
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: footer.php:41 wp99themes/widgets/blog99-footer-contact-info.php:142
+msgid "Mobile"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:44
+msgid "Mobile "
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:789
+#: wp99themes/compatibility/class-breadcrumb-trail.php:845
+#: wp99themes/compatibility/class-breadcrumb-trail.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: wp99themes/inc/woocommerce.php:113
+msgid "New"
+msgstr ""
+
+#: wp99themes/inc/woocommerce.php:323
+msgid "New!"
+msgstr ""
+
+#: wp99themes/template-parts/content-single.php:112
+msgid "Next article"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:137
+msgid "No of slider"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:49
+msgid "No Repeat"
+msgstr ""
+
+#: wp99themes/meta-box/blog99-post-metabox.php:51
+msgid "No Sidebar"
+msgstr ""
+
+#: wp99themes/template-parts/content-none.php:18
+msgid "Nothing Found"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-list.php:44
+msgid "Number of posts:"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/single-page.php:130
+msgid "Number of related post"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/archive-blog-page.php:49
+msgid "Number of word for excerpt limit."
+msgstr ""
+
+#: wp99themes/template-parts/content-404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. %s is the page number.
+#: wp99themes/compatibility/class-breadcrumb-trail.php:272
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/sidebar-layout.php:12
+msgid "Page Design Layout Settings"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/general-settings.php:91
+msgid "Page load animation while scroll page"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/sidebar-layout.php:85
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/sidebar-layout.php:86
+msgid "Page sidebar layout. Ex left-sidebar"
+msgstr ""
+
+#: wp99themes/template-parts/content-single.php:98
+msgid "Pages:"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:36
+#: wp99themes/widgets/blog99-footer-contact-info.php:96
+msgid "Phone"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/top-header.php:85
+msgid "Phone No"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:190
+msgid "Pinintrest URL"
+msgstr ""
+
+#. %s: post author.
+#: wp99themes/inc/template-tags.php:49
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-list.php:28
+msgid "Post List view"
+msgstr ""
+
+#. 1: list of categories.
+#: wp99themes/inc/template-tags.php:69
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: wp99themes/template-parts/content-single.php:111
+msgid "Previous article"
+msgstr ""
+
+#: wp99themes/core/class-blog99-after-setup-theme.php:124
+msgid "Primary"
+msgstr ""
+
+#: wp99themes/core/extras.php:279 wp99themes/core/extras.php:609
+#: wp99themes/widgets/blog99-sidebar-author.php:132
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: wp99themes/template-parts/content-none.php:28
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/single-page.php:104
+msgid "Related Post"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/single-page.php:112
+msgid "Related Post Title"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:70
+msgid "Right"
+msgstr ""
+
+#: wp99themes/meta-box/blog99-post-metabox.php:48
+msgid "Right Sidebar"
+msgstr ""
+
+#: wp99themes/core/class-register-widget.php:27
+msgid "Right Sidebar Widget Area"
+msgstr ""
+
+#: wp99themes/inc/woocommerce.php:118 wp99themes/inc/woocommerce.php:328
+msgid "Sale!"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:86
+msgid "Scroll"
+msgstr ""
+
+#: wp99themes/core/extras.php:729
+msgid "Search"
+msgstr ""
+
+#: wp99themes/core/extras.php:728
+msgid "Search .."
+msgstr ""
+
+#. %s is the search query.
+#: wp99themes/compatibility/class-breadcrumb-trail.php:270
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-list.php:40
+msgid "Select a post category:"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-author.php:66
+msgid "Select Author"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:114
+msgid "Select Category"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/grid-categorys.php:55
+msgid "Select category"
+msgstr ""
+
+#: wp99themes/meta-box/blog99-post-metabox.php:44
+msgid "Select page sidebar position"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:206
+msgid "Select your desired font for header title and description."
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:253
+msgid "Select your desired font size for header description"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:238
+msgid "Select your desired font size for header description."
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:222
+msgid "Select your desired font size for header title"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:68
+msgid "Short Desc"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-list.php:41
+msgid "Show all posts"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:51
+msgid "Show Cart Icon"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/grid-categorys.php:31
+msgid "Show Category"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:55
+msgid "Show category"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:56
+msgid "Show category list"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:76
+msgid "show comment, date time"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:75
+msgid "Show Meta"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/single-page.php:94
+msgid "Show Related Post"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:71
+msgid "Show Search Icon"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/breadcrumb.php:79
+msgid "Show/Hide breadcrumb nav menu"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/breadcrumb.php:35
+msgid "Show/Hide Breadcrumb Sections."
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/breadcrumb.php:57
+msgid "Show/Hide breadcrumb title"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/single-page.php:28
+msgid "Single Page Layout"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/sidebar-layout.php:57
+msgid "Single Posts Detail Layout"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/sidebar-layout.php:58
+msgid "Single posts detail sidebar layout."
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/single-page.php:11
+msgid "Single Posts Page Settings"
+msgstr ""
+
+#: header.php:31
+msgid "Skip to content"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:210
+msgid "Skype"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:56
+msgid "Skype "
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/banner-slider.php:136
+msgid "Slider Number of Post"
+msgstr ""
+
+#: wp99themes/template-parts/content-none.php:41
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/general-settings.php:71
+msgid "Sticky menu behaviour"
+msgstr ""
+
+#. 1: list of tags.
+#: wp99themes/inc/template-tags.php:76
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/general-settings.php:9
+msgid "Theme Colors Setting"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options.php:9
+msgid "Theme Options"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:50
+msgid "Tile"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:51
+msgid "Tile Horizontally"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:52
+msgid "Tile Vertically"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:63
+#: wp99themes/widgets/blog99-sidebar-author.php:61
+msgid "Title"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:82
+#: wp99themes/widgets/blog99-footer-contact-info.php:104
+#: wp99themes/widgets/blog99-footer-contact-info.php:127
+#: wp99themes/widgets/blog99-footer-contact-info.php:150
+#: wp99themes/widgets/blog99-footer-contact-info.php:172
+#: wp99themes/widgets/blog99-footer-contact-info.php:195
+#: wp99themes/widgets/blog99-footer-contact-info.php:218
+#: wp99themes/widgets/blog99-sidebar-list.php:36
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:40
+msgid "Title:"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:67
+msgid "Top"
+msgstr ""
+
+#: wp99themes/core/class-blog99-after-setup-theme.php:125
+msgid "Top Header"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/top-header.php:10
+msgid "Top Header Settings"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:112
+msgid "Try diffrent header layout"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:118
+msgid "Twitter"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:156
+msgid "Twitter URL"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:49
+msgid "Twitter URL:"
+msgstr ""
+
+#: wp99themes/inc/customizer.php:106
+msgid "Unset"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:87
+#: wp99themes/widgets/blog99-footer-contact-info.php:109
+#: wp99themes/widgets/blog99-footer-contact-info.php:132
+#: wp99themes/widgets/blog99-footer-contact-info.php:155
+#: wp99themes/widgets/blog99-footer-contact-info.php:177
+#: wp99themes/widgets/blog99-footer-contact-info.php:200
+#: wp99themes/widgets/blog99-footer-contact-info.php:223
+msgid "Value:"
+msgstr ""
+
+#: wp99themes/core/extras.php:534
+msgid "View all posts by "
+msgstr ""
+
+#: wp99themes/inc/woocommerce.php:494
+msgid "View your shopping cart"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/general-settings.php:46
+msgid "WebPage Layout Settings"
+msgstr ""
+
+#: wp99themes/core/extras.php:540
+#: wp99themes/widgets/blog99-footer-contact-info.php:187
+msgid "Website"
+msgstr ""
+
+#: wp99themes/widgets/blog99-footer-contact-info.php:52
+msgid "Website "
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: wp99themes/compatibility/class-breadcrumb-trail.php:278
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/archive-blog-page.php:48
+msgid "Word limit for excerpt"
+msgstr ""
+
+#: wp99themes/inc/template-functions.php:140
+msgid "WP99 Themes"
+msgstr ""
+
+#. Author of the theme
+msgid "wp99themes"
+msgstr ""
+
+#: wp99themes/inc/woocommerce.php:368
+msgid "write a preview"
+msgstr ""
+
+#: wp99themes/compatibility/class-breadcrumb-trail.php:788
+#: wp99themes/compatibility/class-breadcrumb-trail.php:817
+#: wp99themes/compatibility/class-breadcrumb-trail.php:844
+#: wp99themes/compatibility/class-breadcrumb-trail.php:871
+#: wp99themes/compatibility/class-breadcrumb-trail.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:120
+msgid "Youtube"
+msgstr ""
+
+#: wp99themes/customizer/panels/theme-options/header-settings.php:173
+msgid "Youtube URL"
+msgstr ""
+
+#: wp99themes/widgets/blog99-sidebar-follow-us.php:59
+msgid "Youtube URL:"
+msgstr ""

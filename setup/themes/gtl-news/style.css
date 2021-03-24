@@ -1,0 +1,80 @@
+/*
+Theme Name: GTL News
+Theme URI: https://greenturtlelab.com/downloads/gtl-news/
+Author: Greenturtlelab
+Author URI: http://www.greenturtlelab.com/
+Description: Gtl News is a simple, beautifully designed responsive multi-purpose WordPress theme. This theme can be easily customized for business, corporate, portfolios, ecommerce (WeeCommerce) events, yoga, blog, construction, education, portfolio, travel and tourism, news, beauty, fitness and many more websites. It is perfect for the do-it-yourself types, agencies and freelancers. We support this theme via online chat, email and the WordPress support forum. Lyampe is responsive, SEO Friendly, Gutenberg friendly and is a child theme of the GTL Portfolio theme.
+Version: 1.0.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gtl-news
+Template: greenturtle-mag
+Template Version:1.2.5
+Tags: blog, news, Newspapper theme, GTL News.
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+.second-section {
+
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-left: 15px;
+
+}
+.slide-item {
+
+    height: 243px;
+
+}
+
+.box-6 {
+
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.box-6 .six {
+	min-height:498px;
+}
+
+.right-content-7 {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.thumb-post.seven {
+    height: 250px;
+}
+
+.thumb-post.eight {
+    height: 250px;
+}
+
+nav#sec-site-navigation ul li a:hover {
+    background: #fff;
+}
+
+#menu-main-menu .current-menu-item a {
+    border: 1px solid #fff !important;
+	color: #fff;
+}
+#menu-main-menu .current-menu-item a:hover {
+    
+	color: #fff !important;
+}
+.top-header-wrapper a:hover {
+	color:#fff !important;
+}
+
+.feature-one p.card-title:hover, .feature-one:hover p.card-title {
+	color: #fff !important;
+}
+
+
+nav#sec-site-navigation ul li.focus ul.sub-menu{
+    display: block;
+}
