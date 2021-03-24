@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="./media/wordpress.png" alt="wordpress-docker" width="200" height="200">
+	<img src="./media/wordpress.png" alt="wordpress-docker" width="400" height="200">
 	<h1>WordPress + Docker</h1>
 	<p>
 		<strong>A Dockerized WordPress boilerplate</strong>
