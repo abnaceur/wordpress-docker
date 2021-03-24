@@ -17,7 +17,7 @@
 
 ### Prerequisites
 * Docker version >= 20.10.3
-* docker-compose version >= 1.17.1
+* Docker-compose version >= 1.17.1
 
 ### Installation
 
@@ -44,7 +44,7 @@
 
 5. Once all containers are up visit
    ```SH
-   http://localhost fronend
+   http://localhost frontend
    http://localhost/wp-admin admin
    http://localhost:8080 PhpMyAdmin
    ```
