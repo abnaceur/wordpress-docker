@@ -1,1 +1,0 @@
-jQuery(document).ready(function(){jQuery("#sociable-ui-tabs").tabs()});
