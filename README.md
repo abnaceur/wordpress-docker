@@ -5,7 +5,7 @@
 		<strong>A Dockerized WordPress boilerplate</strong>
 	</p>
 
-[![Version](https://img.shields.io/badge/foosballTracker-beta--0.0-green)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+[![Version](https://img.shields.io/badge/WordPress--Docker-1.0.0-green)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 </div>
 
 <!-- ABOUT THE PROJECT -->
